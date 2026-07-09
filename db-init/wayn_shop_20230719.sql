@@ -1591,7 +1591,6 @@ CREATE TABLE `shop_goods_product`  (
   `price` decimal(10, 2) NOT NULL DEFAULT 0.00 COMMENT '商品货品价格',
   `number` int NOT NULL DEFAULT 0 COMMENT '商品货品数量',
   `locked_stock` int NOT NULL DEFAULT 0 COMMENT '冻结库存数量',
-  `default_selected` tinyint(1) NULL DEFAULT 0 COMMENT '是否默认选中（0未选中 1选中）',
   `url` varchar(125) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '商品货品图片',
   `create_time` datetime NULL DEFAULT NULL COMMENT '创建时间',
   `update_time` datetime NULL DEFAULT NULL COMMENT '更新时间',
@@ -1842,6 +1841,8 @@ INSERT INTO `shop_goods_product` VALUES (249, 1181002, '[\"标准\"]', 11.00, 11
 INSERT INTO `shop_goods_product` VALUES (250, 1181003, '[\"标准\"]', 1.00, 1, 0, '', '2020-08-20 23:21:28', NULL, 1);
 INSERT INTO `shop_goods_product` VALUES (251, 1181004, '[\"标准\"]', 1.00, 1, 0, '', '2020-08-20 23:25:05', '2020-08-20 23:43:22', 1);
 INSERT INTO `shop_goods_product` VALUES (256, 1181012, '[\"标准\"]', 0.00, 0, 1, '', '2021-04-01 18:57:51', NULL, 1);
+
+ALTER TABLE `shop_goods_product` ADD COLUMN `default_selected` tinyint(1) NULL DEFAULT 0 COMMENT '是否默认选中（0未选中 1选中）' AFTER `locked_stock`;
 
 -- ----------------------------
 -- Table structure for shop_goods_specification
