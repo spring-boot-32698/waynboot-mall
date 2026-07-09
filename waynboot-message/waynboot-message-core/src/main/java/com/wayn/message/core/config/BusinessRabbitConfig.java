@@ -72,4 +72,42 @@ public class BusinessRabbitConfig {
     }
     /************************************ 订单队列、交换机 end *******************************************/
 
+    /************************************ 秒杀订单队列、交换机 begin *******************************************/
+    /**
+     * 秒杀异步落单队列。
+     * 和普通订单队列隔离，避免活动高峰导致普通下单消息消费延迟。
+     *
+     * @return 秒杀订单队列
+     */
+    @Bean
+    public Queue seckillOrderDirectQueue() {
+        Map<String, Object> params = new HashMap<>();
+        params.put("x-dead-letter-exchange", MQConstants.DL_TOPIC_EXCHANGE);
+        params.put("x-dead-letter-routing-key", MQConstants.DL_ROUTING_KEY);
+        return new Queue(MQConstants.SECKILL_ORDER_DIRECT_QUEUE, true, false, false, params);
+    }
+
+    /**
+     * 秒杀异步落单交换机。
+     *
+     * @return 秒杀订单交换机
+     */
+    @Bean
+    DirectExchange seckillOrderDirectExchange() {
+        return new DirectExchange(MQConstants.SECKILL_ORDER_DIRECT_EXCHANGE);
+    }
+
+    /**
+     * 绑定秒杀订单队列和交换机。
+     *
+     * @return 秒杀订单绑定关系
+     */
+    @Bean
+    Binding bindingSeckillOrderDirect() {
+        return BindingBuilder.bind(seckillOrderDirectQueue())
+                .to(seckillOrderDirectExchange())
+                .with(MQConstants.SECKILL_ORDER_DIRECT_ROUTING);
+    }
+    /************************************ 秒杀订单队列、交换机 end *******************************************/
+
 }

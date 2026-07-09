@@ -2,15 +2,16 @@ package com.wayn.domain.trade.support.payment;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.wayn.domain.api.goods.service.IGoodsService;
 import com.wayn.domain.api.outbox.entity.LocalMessage;
+import com.wayn.domain.api.outbox.service.LocalMessageTopics;
 import com.wayn.domain.api.trade.entity.OrderGoods;
+import com.wayn.domain.api.trade.service.IOrderGoodsService;
+import com.wayn.domain.inventory.support.OrderStockSupport;
 import com.wayn.domain.trade.outbox.LocalMessageCreateCommand;
 import com.wayn.domain.trade.outbox.LocalMessageHandler;
 import com.wayn.domain.trade.outbox.LocalMessageService;
-import com.wayn.domain.api.outbox.service.LocalMessageTopics;
-import com.wayn.domain.api.goods.service.IGoodsService;
-import com.wayn.domain.api.trade.service.IOrderGoodsService;
-import com.wayn.domain.inventory.support.OrderStockSupport;
+import com.wayn.domain.trade.support.seckill.SeckillInventoryConfirmSupport;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -18,12 +19,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-import com.wayn.domain.inventory.support.OrderStockSupport;
-import com.wayn.domain.inventory.support.RedisStockPreDeductSupport;
-import com.wayn.domain.inventory.support.RedisStockSnapshotSupport;
-import com.wayn.domain.inventory.support.RedisStockBucketRouter;
-import com.wayn.domain.inventory.support.RedisStockKeySupport;
-import com.wayn.domain.inventory.support.RedisStockReservation;
 
 /**
  * 支付成功后的后置动作支撑服务。
@@ -41,6 +36,7 @@ public class PaymentPostActionSupport implements LocalMessageHandler {
     private final IGoodsService goodsService;
     private final LocalMessageService localMessageService;
     private final OrderStockSupport orderStockSupport;
+    private final SeckillInventoryConfirmSupport seckillInventoryConfirmSupport;
 
     /**
      * 处理支付成功后的后置动作。
@@ -82,6 +78,7 @@ public class PaymentPostActionSupport implements LocalMessageHandler {
         Long orderId = OrderPaidPostActionPayload.fromJson(message.getPayload()).orderId();
         validateOrderId(orderId);
         orderStockSupport.confirmFrozenStockByOrderId(orderId);
+        seckillInventoryConfirmSupport.confirmPaidStock(orderId);
         updateVirtualSales(orderId);
     }
 

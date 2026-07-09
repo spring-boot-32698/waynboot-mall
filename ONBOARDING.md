@@ -638,7 +638,172 @@ KEY idx_member_create_time(create_time);
 
 ---
 
-## 十一、支付策略模式
+## 十一、秒杀功能链路
+
+秒杀功能的目标不是单纯“新增一个下单接口”，而是在高并发活动场景下把无效请求尽量挡在前面，同时保持订单、库存、支付状态和普通订单体系统一。
+
+本轮设计结论：
+
+- 不新增 `shop_seckill_order`，订单仍统一写入 `shop_order` 和 `shop_order_goods`。
+- 新增 `shop_order_activity_relation`，按订单商品粒度记录“这条订单明细来自哪个活动 SKU”。
+- 秒杀下单使用漏斗模型过滤请求：活动状态、短期 token、SKU 级限流、用户级限流、Redis Lua 库存原子扣减、异步落单。
+- 秒杀订单 60 秒不支付，通过 RabbitMQ 延迟消息及时关闭并释放库存。
+- 普通订单关单链路不在本次改造中改变，避免把普通订单已有超时策略和秒杀强时效策略混在一起。
+
+### 11.1 数据模型
+
+新增 SQL 在 `db-init/seckill.sql`：
+
+| 表 | 作用 | 关键字段 |
+|---|---|---|
+| `shop_seckill_activity` | 秒杀活动主表 | `name`、`start_time`、`end_time`、`status` |
+| `shop_seckill_sku` | 活动 SKU 和活动库存三态 | `available_stock`、`locked_stock`、`sold_stock`、`limit_count` |
+| `shop_order_activity_relation` | 统一订单和活动 SKU 的关联 | `order_goods_id`、`activity_type`、`activity_sku_id`、`inventory_status` |
+
+`shop_order_activity_relation.inventory_status` 表示活动库存状态：
+
+```text
+0 LOCKED     下单成功，活动库存已冻结
+1 CONFIRMED  支付成功，活动冻结库存已确认售出
+2 RELEASED   超时未支付，活动冻结库存已释放
+```
+
+这个字段独立于 `shop_order.order_status`。订单状态解决交易状态，活动库存状态解决活动库存副作用幂等，两者不要混用。
+
+### 11.2 后端链路
+
+移动端秒杀入口：
+
+```text
+waynboot-mobile-api
+├─ SeckillController
+│  ├─ GET  /seckill/list
+│  ├─ GET  /seckill/detail/{activityId}
+│  ├─ GET  /seckill/token/{activitySkuId}
+│  ├─ POST /seckill/submit
+│  └─ GET  /seckill/result/{orderSn}
+└─ SeckillOrderCallbackController
+   ├─ POST /callback/seckill/order/submit
+   └─ POST /callback/seckill/order/unpaid
+```
+
+核心编排类：
+
+| 类 | 职责 |
+|---|---|
+| `SeckillTokenSupport` | 签发短期 token，减少脚本和重放请求 |
+| `SeckillRateLimiterSupport` | SKU 级和用户级令牌桶限流 |
+| `SeckillOrderSubmitSupport` | 秒杀漏斗主入口，完成校验、Redis Lua 扣减和本地消息写入 |
+| `SeckillOrderCreateSupport` | MQ 回调后异步创建统一订单、订单明细和订单活动关联 |
+| `SeckillOrderMessageSupport` | 写秒杀下单本地消息，发送 60 秒未支付延迟消息 |
+| `SeckillOrderTimeoutSupport` | 延迟消息触发未支付关单 |
+| `SeckillInventoryReleaseSupport` | 超时未支付时释放活动库存和 Redis 秒杀库存 |
+| `SeckillInventoryConfirmSupport` | 支付成功后确认活动冻结库存 |
+| `SeckillResultSupport` | 前端轮询结果缓存，避免用户重复提交 |
+
+完整请求链路：
+
+```text
+活动发布
+  └─ 后台 preheat 将 shop_seckill_sku.available_stock 写入 Redis 秒杀库存 Key
+
+用户进入详情页
+  └─ /seckill/token/{activitySkuId} 签发 60 秒短期 token
+
+用户点击秒杀
+  └─ /seckill/submit
+       ├─ 校验活动、SKU、时间、限购
+       ├─ SKU 级令牌桶限流
+       ├─ 用户级令牌桶限流
+       ├─ Redis Lua 原子校验 token / 重复购买 / 活动库存
+       ├─ 写 local_message，topic = SECKILL_ORDER_SUBMIT
+       └─ 返回 PROCESSING + orderSn
+
+MQ 消费者收到下单消息
+  └─ message-consumer -> mobile callback -> SeckillOrderCreateSupport
+       ├─ MySQL 冻结普通 SKU 库存
+       ├─ MySQL 冻结活动 SKU 库存
+       ├─ 写 shop_order
+       ├─ 写 shop_order_goods
+       ├─ 写 shop_order_activity_relation
+       ├─ 写轮询结果 SUCCESS
+       └─ 发送 60 秒延迟消息
+
+60 秒后仍未支付
+  └─ SeckillOrderTimeoutSupport
+       ├─ 订单状态 101 -> 103
+       ├─ 释放普通 SKU 冻结库存
+       ├─ 释放活动 SKU 冻结库存
+       ├─ 回补 Redis 秒杀库存
+       └─ 标记轮询结果 CLOSED
+```
+
+### 11.3 为什么延迟关单不走本地消息表主路径
+
+秒杀库存只锁定 60 秒，释放必须尽量及时。如果先写本地消息表再等 Relay 扫描，会引入扫描周期、重试退避和补偿延迟，不适合秒杀强时效释放。
+
+当前取舍：
+
+- 秒杀异步落单：使用本地消息表，解决“Redis 已扣、业务准备提交，但 MQ 短暂不可用”的可靠投递问题。
+- 秒杀未支付释放：使用 RabbitMQ 延迟消息，追求 60 秒后尽快触发关单。
+- 延迟消息丢失的极端场景，后续可以补一个扫描 `shop_order_activity_relation` 的兜底任务，但不把主链路复杂化。
+
+### 11.4 支付成功后的库存确认
+
+支付回调统一进入普通订单支付链路，`PaymentPostActionSupport` 在支付成功后同时做两件事：
+
+```text
+orderStockSupport.confirmFrozenStockByOrderId(orderId)
+seckillInventoryConfirmSupport.confirmPaidStock(orderId)
+```
+
+第一行确认普通 SKU 冻结库存，第二行确认活动 SKU 冻结库存。`SeckillInventoryConfirmSupport` 会把 `shop_order_activity_relation.inventory_status` 从 `LOCKED` 条件更新为 `CONFIRMED`，再把 `shop_seckill_sku.locked_stock` 转成 `sold_stock`。如果支付回调重复进来，条件更新失败后不会重复确认活动库存。
+
+### 11.5 前台 H5 改造
+
+前台仓库：`E:\GitRepo\waynboot-mobile`
+
+| 文件 | 作用 |
+|---|---|
+| `src/api/seckill.js` | 秒杀活动、token、提交和结果轮询 API |
+| `src/router/index.js` | 新增 `/seckill` 和 `/seckill/detail/:activityId` |
+| `src/views/home/index.vue` | 首页新增秒杀会场入口 |
+| `src/views/seckill/index.vue` | 秒杀活动列表页 |
+| `src/views/seckill/detail.vue` | 秒杀详情、SKU 选择、提交和轮询支付入口 |
+
+前端提交后不要假设订单已创建成功。`/seckill/submit` 只表示已经通过入口漏斗并进入异步处理，页面必须用 `/seckill/result/{orderSn}` 轮询：
+
+```text
+PROCESSING  继续等待
+SUCCESS     跳转支付页
+FAILED      展示失败原因
+CLOSED      订单已超时关闭
+```
+
+### 11.6 后台管理改造
+
+后台仓库：`E:\GitRepo\waynboot-admin`
+
+| 文件 | 作用 |
+|---|---|
+| `src/api/shop/seckill.js` | 后台秒杀活动管理 API |
+| `src/views/shop/seckill/index.vue` | 秒杀活动列表、编辑、发布、下架、预热 |
+| `db-init/seckill.sql` | 插入 `shop:seckill:*` 菜单和按钮权限 |
+
+后台操作建议：
+
+```text
+1. 新增活动，维护活动时间和活动 SKU
+2. 发布活动
+3. 活动开始前执行预热，把活动库存写入 Redis
+4. 活动结束或异常时下架活动
+```
+
+预热只写 Redis 秒杀库存入口，不替代 MySQL 活动库存。真正落单时仍会通过 MySQL 条件更新冻结活动库存，防止 Redis 漂移导致超卖。
+
+---
+
+## 十二、支付策略模式
 
 支付渠道通过策略模式扩展，新增渠道只需：
 
@@ -656,7 +821,7 @@ KEY idx_member_create_time(create_time);
 
 ---
 
-## 十二、测试规范
+## 十三、测试规范
 
 测试已跟随模块拆分分布在各模块的 `src/test/java` 下，优先看 `waynboot-domain-trade`、`waynboot-domain-inventory`、`waynboot-domain-goods` 和入口模块测试。
 
@@ -671,7 +836,7 @@ mvn test -pl waynboot-domain-inventory
 
 ---
 
-## 十三、常见问题
+## 十四、常见问题
 
 **Q：为什么 Controller 里几乎没有业务逻辑？**  
 A：这是刻意设计。Controller 只做 HTTP 适配（参数校验、权限、日志、VO 转换），业务逻辑集中在各 `waynboot-domain-*` 模块，便于单元测试和复用。
@@ -691,6 +856,12 @@ A：它在 SQL UPDATE 的 WHERE 条件里加上 `order_status = 当前状态`。
 **Q：本地消息表和 MQ 有什么关系？**  
 A：本地消息表是 MQ 的可靠性补偿层。MQ 投递成功后消息状态变为 SENT，不再重试。如果 MQ 宕机，消息停留在 INIT，等 MQ 恢复后 Relay 会自动补投。
 
+**Q：秒杀为什么不用独立订单表？**
+A：订单支付、退款、发货、对账都已经围绕 `shop_order` 建模。如果新增 `shop_seckill_order`，后续支付和售后链路会被拆成两套。当前方案通过 `shop_order_activity_relation` 关联活动上下文，保留统一订单状态机，只把活动库存副作用单独记录。
+
+**Q：秒杀 requestNo 能不能直接用 orderSn？**
+A：不建议。`requestNo` 表示客户端一次业务请求，`orderSn` 是服务端生成的订单号。秒杀提交先经过 Redis 漏斗和异步落单，订单可能还没有创建完成，用 `orderSn` 做请求幂等会让客户端和服务端职责混在一起。当前由服务端生成 `orderSn`，并用用户成功 Key 和结果 Key 做重复提交收敛。
+
 **Q：定时任务写在哪里？**  
 A：项目用 Spring `@Scheduled`，没有独立的 job 模块。
 
@@ -701,7 +872,7 @@ A：项目用 Spring `@Scheduled`，没有独立的 job 模块。
 
 ---
 
-## 十四、推荐阅读顺序（按复杂度递增）
+## 十五、推荐阅读顺序（按复杂度递增）
 
 1. `OrderStatusEnum` — 理解状态码
 2. `OrderStateTransitionSupport` — 理解状态机
@@ -712,3 +883,4 @@ A：项目用 Spring `@Scheduled`，没有独立的 job 模块。
 7. `RedisStockPreDeductSupport` — 理解 Redis 预占
 8. `OrderSubmitStockReduceStep` — 把 Redis 预占和 MySQL 冻结串起来看
 9. `DashboardService` + `AdminOrderMapper` — 理解后台首页统计口径
+10. `SeckillOrderSubmitSupport` + `SeckillOrderCreateSupport` — 理解秒杀漏斗和异步落单

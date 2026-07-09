@@ -18,6 +18,8 @@ public enum RedisKeyEnum {
     EMAIL_CONSUMER_MAP(CacheConstants.CACHE_PREFIX + "email_consumer_map", 60),
     ORDER_CONSUMER_MAP(CacheConstants.CACHE_PREFIX + "order_consumer_key", 60),
     UNPAID_ORDER_CONSUMER_MAP(CacheConstants.CACHE_PREFIX + "unpaid_order_consumer_key", 60),
+    SECKILL_ORDER_CONSUMER_MAP(CacheConstants.CACHE_PREFIX + "seckill_order_consumer_key", 60),
+    SECKILL_UNPAID_ORDER_CONSUMER_MAP(CacheConstants.CACHE_PREFIX + "seckill_unpaid_order_consumer_key", 60),
     ORDER_RESULT_KEY(CacheConstants.CACHE_PREFIX + "order_result_key:", 60),
     ORDER_UNPAID_KEY(CacheConstants.CACHE_PREFIX + "order_unpaid_key:", 60),
     ORDER_SUBMIT_LOCK(CacheConstants.CACHE_PREFIX + "order_submit_lock:", 60),

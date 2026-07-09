@@ -9,6 +9,7 @@ import com.wayn.domain.api.trade.service.IOrderGoodsService;
 import com.wayn.domain.inventory.support.OrderStockSupport;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.wayn.domain.api.outbox.entity.LocalMessage;
+import com.wayn.domain.trade.support.seckill.SeckillInventoryConfirmSupport;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 
@@ -32,8 +33,9 @@ class PaymentPostActionSupportTest {
         IGoodsService goodsService = mock(IGoodsService.class);
         LocalMessageService localMessageService = mock(LocalMessageService.class);
         OrderStockSupport orderStockSupport = mock(OrderStockSupport.class);
+        SeckillInventoryConfirmSupport seckillInventoryConfirmSupport = mock(SeckillInventoryConfirmSupport.class);
         PaymentPostActionSupport support = new PaymentPostActionSupport(orderGoodsService, goodsService,
-                localMessageService, orderStockSupport);
+                localMessageService, orderStockSupport, seckillInventoryConfirmSupport);
 
         support.handleOrderPaid(1L);
 
@@ -54,8 +56,9 @@ class PaymentPostActionSupportTest {
         IGoodsService goodsService = mock(IGoodsService.class);
         LocalMessageService localMessageService = mock(LocalMessageService.class);
         OrderStockSupport orderStockSupport = mock(OrderStockSupport.class);
+        SeckillInventoryConfirmSupport seckillInventoryConfirmSupport = mock(SeckillInventoryConfirmSupport.class);
         PaymentPostActionSupport support = new PaymentPostActionSupport(orderGoodsService, goodsService,
-                localMessageService, orderStockSupport);
+                localMessageService, orderStockSupport, seckillInventoryConfirmSupport);
         OrderGoods orderGoods = new OrderGoods();
         orderGoods.setGoodsId(10L);
         orderGoods.setNumber(3);
@@ -67,6 +70,7 @@ class PaymentPostActionSupportTest {
         support.handle(message);
 
         verify(orderStockSupport).confirmFrozenStockByOrderId(1L);
+        verify(seckillInventoryConfirmSupport).confirmPaidStock(1L);
         verify(goodsService).updateVirtualSales(10L, 3);
     }
 
@@ -79,8 +83,9 @@ class PaymentPostActionSupportTest {
         IGoodsService goodsService = mock(IGoodsService.class);
         LocalMessageService localMessageService = mock(LocalMessageService.class);
         OrderStockSupport orderStockSupport = mock(OrderStockSupport.class);
+        SeckillInventoryConfirmSupport seckillInventoryConfirmSupport = mock(SeckillInventoryConfirmSupport.class);
         PaymentPostActionSupport support = new PaymentPostActionSupport(orderGoodsService, goodsService,
-                localMessageService, orderStockSupport);
+                localMessageService, orderStockSupport, seckillInventoryConfirmSupport);
         LocalMessage message = new LocalMessage();
         message.setTopic(LocalMessageTopics.ORDER_PAID_POST_ACTION);
         message.setPayload("{}");

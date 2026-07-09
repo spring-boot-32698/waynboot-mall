@@ -48,6 +48,30 @@ public class MobileApiImpl implements MobileApi {
         }
     }
 
+    /**
+     * 调用 mobile 秒杀落单回调。
+     *
+     * @param body MQ 消息体
+     * @throws Exception 回调失败
+     */
+    @Retryable(maxAttempts = 3, backoff = @Backoff(delay = 2000L, multiplier = 1.5))
+    @Override
+    public void submitSeckillOrder(String body) throws Exception {
+        JSONObject msgObject = JSONObject.parseObject(body);
+        String notifyUrl = (String) msgObject.get("notifyUrl");
+        if (StringUtils.isEmpty(notifyUrl)) {
+            throw new Exception("获取mobile秒杀下单api失败，notifyUrl为空");
+        }
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.MULTIPART_FORM_DATA);
+        MultiValueMap<String, Object> multiValueMap = new LinkedMultiValueMap<>();
+        multiValueMap.add("order", msgObject.get("order"));
+        HttpEntity<MultiValueMap<String, Object>> request = new HttpEntity<>(multiValueMap, headers);
+        ResponseEntity<String> response = restTemplate.postForEntity(notifyUrl, request, String.class);
+        log.info("submitSeckillOrder response:{}", response.getBody());
+        validateResponse(response, body, "调用mobile秒杀下单api失败");
+    }
+
     @Retryable(maxAttempts = 3, backoff = @Backoff(delay = 2000L, multiplier = 1.5))
     @Override
     public void unpaidOrder(String body) throws Exception {
@@ -73,6 +97,31 @@ public class MobileApiImpl implements MobileApi {
         }
     }
 
+    /**
+     * 调用 mobile 秒杀未支付关单回调。
+     *
+     * @param body MQ 消息体
+     * @throws Exception 回调失败
+     */
+    @Retryable(maxAttempts = 3, backoff = @Backoff(delay = 2000L, multiplier = 1.5))
+    @Override
+    public void unpaidSeckillOrder(String body) throws Exception {
+        JSONObject msgObject = JSONObject.parseObject(body);
+        String notifyUrl = msgObject.getString("notifyUrl");
+        String orderSn = msgObject.getString("orderSn");
+        if (StringUtils.isEmpty(notifyUrl)) {
+            throw new Exception("获取mobile秒杀未支付订单超时取消api失败，notifyUrl为空");
+        }
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.MULTIPART_FORM_DATA);
+        MultiValueMap<String, Object> multiValueMap = new LinkedMultiValueMap<>();
+        multiValueMap.add("orderSn", orderSn);
+        HttpEntity<MultiValueMap<String, Object>> request = new HttpEntity<>(multiValueMap, headers);
+        ResponseEntity<String> response = restTemplate.postForEntity(notifyUrl, request, String.class);
+        log.info("unpaidSeckillOrder response:{}", response.getBody());
+        validateResponse(response, body, "调用mobile秒杀未支付订单超时取消api失败");
+    }
+
     @Retryable(maxAttempts = 3, backoff = @Backoff(delay = 2000L, multiplier = 1.5))
     @Override
     public void sendEmail(String body) throws Exception {
@@ -96,6 +145,24 @@ public class MobileApiImpl implements MobileApi {
         JSONObject jsonObject = JSONObject.parseObject(response.getBody());
         if (jsonObject != null && MQConstants.RESULT_SUCCESS_CODE != jsonObject.getInteger("code")) {
             throw new Exception("调用mobile发送邮件api失败， resp：" + jsonObject);
+        }
+    }
+
+    /**
+     * 校验 mobile 回调响应。
+     *
+     * @param response 回调响应
+     * @param body 原始消息体
+     * @param errorPrefix 错误前缀
+     * @throws Exception 响应失败
+     */
+    private void validateResponse(ResponseEntity<String> response, String body, String errorPrefix) throws Exception {
+        if (response.getStatusCode().value() != HttpStatus.OK.value()) {
+            throw new Exception(errorPrefix + "， body：" + body);
+        }
+        JSONObject jsonObject = JSONObject.parseObject(response.getBody());
+        if (jsonObject != null && MQConstants.RESULT_SUCCESS_CODE != jsonObject.getInteger("code")) {
+            throw new Exception(errorPrefix + "， resp：" + jsonObject);
         }
     }
 }

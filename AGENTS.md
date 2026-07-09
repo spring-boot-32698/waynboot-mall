@@ -16,6 +16,13 @@ mvn -pl waynboot-message/waynboot-message-consumer spring-boot:run
 
 `mvn clean package` 用于全量构建，`mvn test` 用于执行现有测试。开发时优先按模块启动单个服务，并配合 `docker-compose.yml` 启动 MySQL、Redis、RabbitMQ、Elasticsearch 等依赖。
 
+## AI 协作与执行准则
+本仓库的 AI 协作规则吸收 `andrej-karpathy-skills` 的四个核心原则：编码前思考、简洁优先、精准修改、目标驱动验证。执行非平凡任务前，先说明当前假设、歧义点、影响范围和验证方式；如果需求存在多种解释，必须先收敛边界，不要静默选择复杂方案直接实现。
+
+默认优先做最小可维护改动，不为单次需求新增通用框架、过度抽象或未要求的配置能力。每一行 diff 都应能追溯到用户目标；不要顺手重排无关代码、删除既有注释、重构未涉及链路或清理用户已有改动。发现无关坏味道时，先在反馈中说明，除非用户明确要求，否则不要纳入本次修改。
+
+处理本项目的订单、库存、支付、秒杀、MQ、本地消息、认证等核心链路时，必须把任务转成可验证目标：先读取现有实现和文档，明确不变量，再按模块边界做小步修改，最后用对应模块测试、编译或文档 diff 自检闭环。文档更新也要遵循同样原则，发现版本、认证模式、模块职责等描述与代码不一致时，应在本次相关文档中一并修正。
+
 ## Java 开发规范
 统一使用 4 空格缩进，类名使用 `UpperCamelCase`，方法和字段使用 `lowerCamelCase`，包名统一小写。启动类命名为 `*Application`。所有源码、XML、Markdown 文件统一使用 UTF-8，避免 BOM 和乱码问题。Controller 只做参数校验、权限判断、日志记录和返回值封装，不写核心业务逻辑；业务逻辑放 Service；MQ Consumer 只负责接收消息和调用 Service。DTO、Request、Response、VO 分层明确，不要直接把数据库实体暴露为接口出参。接口返回参数优先使用明确的 `VO` / `ResVO`，不要继续用 `Map<String, Object>`、裸 `Object` 或临时拼装结构承载复杂出参。禁止硬编码状态值、渠道值、业务常量，统一收敛到常量或枚举。
 

@@ -85,14 +85,17 @@ public class OrderCancellationSupport {
      * @param orderSn 订单号
      * @param targetStatus 目标关闭状态
      */
-    public void cancel(String orderSn, OrderStatusEnum targetStatus) {
+    public boolean cancel(String orderSn, OrderStatusEnum targetStatus) {
         String lockKey = RedisKeyEnum.ORDER_UNPAID_KEY.getKey(orderSn);
+        java.util.concurrent.atomic.AtomicBoolean cancelled = new java.util.concurrent.atomic.AtomicBoolean(false);
         boolean executed = tradeLockSupport.tryRunWithLock(lockKey, null,
-                () -> transactionTemplate.executeWithoutResult(status -> doCancel(orderSn, targetStatus)));
+                () -> transactionTemplate.executeWithoutResult(status ->
+                        cancelled.set(doCancel(orderSn, targetStatus))));
         if (!executed) {
             log.warn("订单编号：{} 获取取消锁失败", orderSn);
             throw new BusinessException(ReturnCodeEnum.ERROR);
         }
+        return cancelled.get();
     }
 
     /**
@@ -101,11 +104,11 @@ public class OrderCancellationSupport {
      * @param orderSn 订单号
      * @param targetStatus 目标关闭状态
      */
-    private void doCancel(String orderSn, OrderStatusEnum targetStatus) {
+    private boolean doCancel(String orderSn, OrderStatusEnum targetStatus) {
         Order order = orderMapper.selectOne(Wrappers.lambdaQuery(Order.class)
                 .eq(Order::getOrderSn, orderSn));
         if (order == null || !orderStateTransitionSupport.canTransition(order.getOrderStatus(), targetStatus)) {
-            return;
+            return false;
         }
         OrderStatusEnum sourceStatus = orderStateTransitionSupport.resolve(order.getOrderStatus());
         OrderStatusChangeCommand command = buildCancelStatusLogCommand(order, sourceStatus, targetStatus);
@@ -113,11 +116,12 @@ public class OrderCancellationSupport {
         int updated = closeOrder(order, targetStatus);
         if (updated == 0) {
             orderStatusLogService.recordFailure(command, "订单状态条件更新失败");
-            return;
+            return false;
         }
 
         orderStatusLogService.recordSuccess(command);
         compensateCancelledOrder(order);
+        return true;
     }
 
     /**

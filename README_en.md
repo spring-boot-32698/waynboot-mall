@@ -7,7 +7,7 @@
 | Category | Technologies |
 | --- | --- |
 | Base Framework | Spring Boot 3.1.4, Java 17 |
-| Web and Security | Spring MVC, Spring Security, JWT |
+| Web and Security | Spring MVC, admin Spring Security + JWT, mobile Sa-Token |
 | Data Access | MyBatis-Plus, MySQL, Druid |
 | Cache | Redis, Lettuce, Lua scripts |
 | Search | Elasticsearch 7 |
@@ -89,6 +89,26 @@ User submits order
 ```
 
 Order state transitions are managed by `OrderStateTransitionSupport`. Payment, cancel, delivery, refund, and confirm-receipt entries must validate state transition rules and use database conditional updates on the current state to avoid concurrent overwrites.
+
+### Flash Sale Flow
+
+The flash sale feature uses a funnel-style flow: request filtering, Redis atomic stock deduction, reliable local-message delivery, MQ-based asynchronous order creation, and 60-second delayed order closing. Orders still use the unified `shop_order` and `shop_order_goods` tables. Flash sale metadata is linked at the order-goods level through `shop_order_activity_relation`, so no separate flash-sale order table is needed.
+
+Core flow:
+
+```text
+Publish activity and preheat Redis stock
+-> Mobile user obtains a short-lived flash-sale token
+-> SKU-level and user-level rate limiting
+-> Redis Lua validates token, duplicate purchase, and activity stock
+-> Write local message for reliable MQ delivery
+-> Consumer creates the unified order asynchronously
+-> Send a 60-second delayed message
+-> Close unpaid orders and release normal stock + activity locked stock
+-> Confirm normal locked stock + activity locked stock after payment succeeds
+```
+
+The admin frontend manages flash sale activities, publishing, offline control, and stock preheating. The mobile frontend provides the flash-sale venue, detail page, submit action, and result polling.
 
 ### Inventory Consistency
 
@@ -198,6 +218,7 @@ inventory_stock.sql              Locked stock fields and inventory flow table
 local_message.sql                Local message table and compensation log table
 order_status_log.sql             Order status log table
 payment_flow.sql                 Payment flow, channel bill, and refund flow tables
+seckill.sql                      Flash sale activities, SKUs, order-activity relation, and admin menu permissions
 ```
 
 SQL files are retained as database evolution entry points. Before applying them, confirm the execution order and idempotency against the target environment.

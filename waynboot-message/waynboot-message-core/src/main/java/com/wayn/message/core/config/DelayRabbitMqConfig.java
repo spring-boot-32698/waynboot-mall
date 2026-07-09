@@ -41,4 +41,26 @@ public class DelayRabbitMqConfig {
     Binding delayBindingOrderDirect() {
         return BindingBuilder.bind(delayQueue()).to(delayExchange()).with(MQConstants.ORDER_DELAY_ROUTING).noargs();
     }
+
+    /**
+     * 秒杀订单 60 秒未支付延迟队列。
+     * 独立队列便于活动期间单独扩容消费者，不影响普通订单关单消费。
+     *
+     * @return 秒杀延迟队列
+     */
+    @Bean
+    public Queue seckillDelayQueue() {
+        return new Queue(MQConstants.SECKILL_ORDER_DELAY_QUEUE);
+    }
+
+    /**
+     * 绑定秒杀延迟队列和延迟交换机。
+     *
+     * @return 秒杀延迟绑定关系
+     */
+    @Bean
+    Binding delayBindingSeckillOrderDirect() {
+        return BindingBuilder.bind(seckillDelayQueue()).to(delayExchange())
+                .with(MQConstants.SECKILL_ORDER_DELAY_ROUTING).noargs();
+    }
 }

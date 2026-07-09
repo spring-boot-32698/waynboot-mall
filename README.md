@@ -111,6 +111,26 @@ MobileSecurityUtils               当前用户读取、密码加密和登录快�
 
 订单状态统一由 `OrderStateTransitionSupport` 管理，支付、取消、发货、退款、确认收货等入口都必须校验状态流转，并通过数据库当前状态条件更新避免并发覆盖。
 
+### 秒杀链路
+
+秒杀功能采用“漏斗过滤 + Redis 原子扣减 + 本地消息可靠投递 + MQ 异步落单 + 60 秒延迟关单”的链路设计。订单仍统一落到 `shop_order` 和 `shop_order_goods`，秒杀活动信息通过 `shop_order_activity_relation` 按订单商品粒度关联，避免维护独立秒杀订单表。
+
+核心流程：
+
+```text
+活动发布和库存预热
+-> 移动端领取短期秒杀 token
+-> SKU 级限流和用户级限流
+-> Redis Lua 校验 token / 重复购买 / 活动库存
+-> 写本地消息表，可靠投递秒杀下单 MQ
+-> 消费者异步创建统一订单
+-> 发送 60 秒延迟消息
+-> 未支付自动关单并释放普通库存 + 活动冻结库存
+-> 支付成功确认普通冻结库存 + 活动冻结库存
+```
+
+后台管理端提供秒杀活动维护、发布、下架和预热接口；H5 前台提供秒杀会场、活动详情、抢购提交和结果轮询。详细前后台改造和维护规则见 [ONBOARDING.md](./ONBOARDING.md) 的“秒杀功能链路”章节。
+
 ### 库存一致性
 
 库存模型采用可售库存和冻结库存两态为主：
@@ -219,6 +239,7 @@ inventory_stock.sql              冻结库存字段和库存流水表
 local_message.sql                本地消息表和补偿日志表
 order_status_log.sql             订单状态日志表
 payment_flow.sql                 支付流水、渠道账单、退款流水表
+seckill.sql                      秒杀活动、活动 SKU、订单活动关联和后台菜单权限
 ```
 
 SQL 文件保留为数据库结构演进入口，提交前需要结合目标环境执行顺序和幂等性确认。
@@ -292,6 +313,11 @@ TradeGovernanceScheduledTask       交易治理定时任务（Spring Scheduled�
 DashboardController                后台首页统计接口
 DashboardService                   后台首页统计口径和 VO 组装
 AdminOrderMapper                   订单管理查询和热销商品聚合查询
+SeckillController                  移动端秒杀活动、token、提交和结果轮询接口
+SeckillOrderSubmitSupport          秒杀漏斗过滤和下单消息写入
+SeckillOrderCreateSupport          秒杀异步落单和延迟关单消息发送
+SeckillInventoryReleaseSupport     秒杀超时未支付活动库存释放
+SeckillInventoryConfirmSupport     秒杀支付成功活动库存确认
 ```
 
 主要代码位置：

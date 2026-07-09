@@ -1602,245 +1602,245 @@ CREATE TABLE `shop_goods_product`  (
 -- ----------------------------
 -- Records of shop_goods_product
 -- ----------------------------
-INSERT INTO `shop_goods_product` VALUES (1, 1181000, '[\"1.5m床垫*1+枕头*2\",\"浅杏粉\"]', 999.00, 100, 0, '/upload/1f67b1970ee20fd572b7202da0ff705d.webp', '2018-02-01 00:00:00', '2020-08-16 01:08:54', 0);
-INSERT INTO `shop_goods_product` VALUES (2, 1181000, '[\"1.5m床垫*1+枕头*2\",\"玛瑙红\"]', 1500.00, 192, 0, 'quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-11-07 17:14:01', 0);
-INSERT INTO `shop_goods_product` VALUES (3, 1181000, '[\"1.5m床垫*1+枕头*2\",\"烟白灰\"]', 1000.00, 300, 0, '/upload/36f64a7161b67e7fb8ea45be32ecfa25.webp?quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (4, 1181000, '[\"1.8m床垫*1+枕头*2\",\"浅杏粉\"]', 1001.00, 398, 0, '/upload/10022c73fa7aa75c2c0d736e96cc56d5.webp?quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (5, 1181000, '[\"1.8m床垫*1+枕头*2\",\"玛瑙红\"]', 2000.00, 0, 0, 'quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (6, 1181000, '[\"1.8m床垫*1+枕头*2\",\"烟白灰\"]', 3000.00, 0, 0, '/upload/36f64a7161b67e7fb8ea45be32ecfa25.webp?quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (7, 1006002, '[\"标准\"]', 899.00, 90, 1, '/upload/8ab2d3287af0cefa2cc539e40600621d.webp', '2018-02-01 00:00:00', '2021-08-08 11:58:19', 0);
-INSERT INTO `shop_goods_product` VALUES (8, 1006007, '[\"标准\"]', 459.00, 98, 0, '/upload/66425d1ed50b3968fed27c822fdd32e0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (9, 1006010, '[\"标准\"]', 659.00, 99, 0, '/upload/8fe022126a2789d970f82853be13a5e6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (10, 1006013, '[\"标准\"]', 699.00, 86, 0, '/upload/583812520c68ca7995b6fac4c67ae2c7.webp', '2018-02-01 00:00:00', '2021-08-08 11:19:36', 0);
-INSERT INTO `shop_goods_product` VALUES (11, 1006014, '[\"标准\"]', 1399.00, 84, 0, '/upload/2b537159f0f789034bf8c4b339c43750.webp', '2018-02-01 00:00:00', '2021-05-14 10:14:33', 0);
-INSERT INTO `shop_goods_product` VALUES (12, 1006051, '[\"标准\"]', 59.00, 95, 0, '/upload/ad5a317216f9da495b144070ecf1f957.webp', '2018-02-01 00:00:00', '2021-05-14 10:14:33', 0);
-INSERT INTO `shop_goods_product` VALUES (13, 1009009, '[\"标准\"]', 1999.00, 100, 0, '/upload/9791006f25e26b2d7c81f41f87ce8619.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (14, 1009012, '[\"标准\"]', 59.00, 100, 0, '/upload/a196b367f23ccfd8205b6da647c62b84.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (15, 1009013, '[\"标准\"]', 99.00, 100, 0, '/upload/da56fda947d0f430d5f4cf4aba14e679.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (16, 1009024, '[\"标准\"]', 599.00, 100, 0, '/upload/149dfa87a7324e184c5526ead81de9ad.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (17, 1009027, '[\"标准\"]', 79.00, 100, 0, '/upload/71cfd849335c498dee3c54d1eb823c17.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (18, 1010000, '[\"标准\"]', 399.00, 100, 0, '/upload/3bec70b85337c3eec182e54380ef7370.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (19, 1010001, '[\"标准\"]', 299.00, 100, 0, '/upload/a8b0a5def7d64e411dd98bdfb1fc989b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (20, 1011004, '[\"标准\"]', 199.00, 95, 0, '/upload/0984c9388a2c3fd2335779da904be393.webp', '2018-02-01 00:00:00', '2021-07-11 23:32:29', 0);
-INSERT INTO `shop_goods_product` VALUES (21, 1015007, '[\"标准\"]', 59.00, 99, 0, '/upload/a2045004de8a6225289376ad54317fc8.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (22, 1019000, '[\"标准\"]', 99.00, 96, 0, '/upload/77c09feb378814be712741b273d16656.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (23, 1019001, '[\"标准\"]', 109.00, 99, 0, '/upload/7644803ab19b3e398456aa5a54229363.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (24, 1019002, '[\"标准\"]', 199.00, 87, 0, '/upload/0118039f7cda342651595d994ed09567.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (25, 1019006, '[\"标准\"]', 99.00, 96, 0, '/upload/60c3707837c97a21715ecc3986a744ce.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (26, 1020000, '[\"标准\"]', 79.00, 99, 0, '/upload/819fdf1f635a694166bcfdd426416e8c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (27, 1021000, '[\"标准\"]', 39.00, 99, 0, '/upload/7191f2599c7fe44ed4cff7a76e853154.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (28, 1021001, '[\"标准\"]', 99.00, 100, 0, '/upload/fd5a8622ee1a7dfd4b57b938ebf25b24.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (29, 1021004, '[\"标准\"]', 299.00, 100, 0, '/upload/654b02045fde802b51d5bbf09a8b75f2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (30, 1021010, '[\"标准\"]', 299.00, 100, 0, '/upload/25d734cc0b2eae8f63f9deb1e4ad5f64.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (31, 1022000, '[\"标准\"]', 299.00, 99, 0, '/upload/5350e35e6f22165f38928f3c2c52ac57.webp', '2018-02-01 00:00:00', '2020-12-14 09:48:03', 0);
-INSERT INTO `shop_goods_product` VALUES (32, 1022001, '[\"标准\"]', 349.00, 100, 0, '/upload/bf8faee3b27b480f63b70056597b626d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (33, 1023003, '[\"标准\"]', 398.00, 100, 0, '/upload/c39d54c06a71b4b61b6092a0d31f2335.webp', '2018-02-01 00:00:00', '2021-05-13 17:23:33', 0);
-INSERT INTO `shop_goods_product` VALUES (34, 1023012, '[\"标准\"]', 299.00, 100, 0, '/upload/07376e78bf4fb8a5aa8e6a0b1437c3ad.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (35, 1023032, '[\"标准\"]', 449.00, 100, 0, '/upload/e0b928ada728c140f6965bb41f47407b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (36, 1023034, '[\"标准\"]', 299.00, 100, 0, '/upload/715899c65c023bb4973fb0466a5b79d6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (37, 1025005, '[\"标准\"]', 268.00, 100, 0, '/upload/49e26f00ca4d0ce00f9960d22c936738.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (38, 1027004, '[\"标准\"]', 249.00, 100, 0, '/upload/6252f53aaf36c072b6678f3d8c635132.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (39, 1029005, '[\"标准\"]', 959.00, 100, 0, '/upload/25fe52f44853eb45f610846991bc4d9d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (40, 1030001, '[\"标准\"]', 969.00, 100, 0, '/upload/88dc5d80c6f84102f003ecd69c86e1cf.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (41, 1030002, '[\"标准\"]', 899.00, 100, 0, '/upload/8b9328496990357033d4259fda250679.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (42, 1030003, '[\"标准\"]', 1469.00, 100, 0, '/upload/1d1ab099dc0e254c15e57302e78e200b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (43, 1030004, '[\"标准\"]', 399.00, 100, 0, '/upload/e84f2e3b3d39cfdc8af5c3954a877aae.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (44, 1030005, '[\"标准\"]', 899.00, 100, 0, '/upload/86f57132793d3e3c924a7ba529849288.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (45, 1030006, '[\"标准\"]', 329.00, 100, 0, '/upload/578ffec952eb25ff072d8ea1b676bfd2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (46, 1033000, '[\"标准\"]', 199.00, 100, 0, '/upload/9aab9a0bf4fef8fe3dc8c732bc22d4b7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (47, 1035006, '[\"标准\"]', 56.00, 100, 0, '/upload/ee92704f3b8323905b51fc647823e6e5.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (48, 1036002, '[\"标准\"]', 99.00, 100, 0, '/upload/ffd7efe9d5225dff9f36d5110b027caa.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (49, 1036013, '[\"标准\"]', 109.00, 100, 0, '/upload/da1bc2c10f7b2e53f2466bd23953b982.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (50, 1036016, '[\"标准\"]', 109.00, 100, 0, '/upload/513d08057c69fdb7d19cc810e976118d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (51, 1037011, '[\"标准\"]', 599.00, 100, 0, '/upload/a03ea6f4509439acdafcb7ceba1debe0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (52, 1037012, '[\"标准\"]', 69.00, 100, 0, '/upload/ffd2c91c7cf9c6e0f630595f7679b95d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (53, 1038004, '[\"标准\"]', 359.00, 100, 0, '/upload/4d3d3eaeb872860539d7faa59f9f84e9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (54, 1039051, '[\"标准\"]', 79.00, 100, 0, '/upload/c8ca0600fa7ba11ca8be6a3173dd38c9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (55, 1039056, '[\"标准\"]', 79.00, 99, 0, '/upload/3e14e82a44c3a250af63df4c29c572d0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (56, 1043005, '[\"标准\"]', 59.00, 100, 0, '/upload/2a95b16f5b147cab4845641bee738a2e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (57, 1044012, '[\"标准\"]', 349.00, 100, 0, '/upload/a803c68ea88e3116023b45ac9ea99510.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (58, 1045000, '[\"标准\"]', 28.00, 99, 0, '/upload/b2adc3fd9b84a289a1be03e8ee400e61.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (59, 1046001, '[\"标准\"]', 8.90, 100, 0, '/upload/74583e585825ecacb11f7c53d2021e00.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (60, 1046002, '[\"标准\"]', 9.90, 100, 0, '/upload/eb486cfe807c4fe5696aa59cbcf1f96a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (61, 1046044, '[\"标准\"]', 349.00, 99, 0, '/upload/2bfecfe58ea3ee0d554f2ed58e9ba30a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (62, 1048005, '[\"标准\"]', 59.00, 100, 0, '/upload/ce980c16810a471dffff6aa8d7bac754.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (63, 1051000, '[\"标准\"]', 180.00, 100, 0, '/upload/e564410546a11ddceb5a82bfce8da43d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (64, 1051001, '[\"标准\"]', 159.00, 100, 0, '/upload/f53ed57d9e23fda7e24dfd0e0a50c5d1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (65, 1051002, '[\"标准\"]', 228.00, 100, 0, '/upload/56f4b4753392d27c0c2ccceeb579ed6f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (66, 1051003, '[\"标准\"]', 148.00, 100, 0, '/upload/6a54ccc389afb2459b163245bbb2c978.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (67, 1055012, '[\"标准\"]', 39.00, 100, 0, '/upload/3d437c8d68e2ec3f3dd61001bf98f16e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (68, 1055016, '[\"标准\"]', 59.00, 100, 0, '/upload/23e0203f1512f33e605f61c28fa03d2d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (69, 1055022, '[\"标准\"]', 4.90, 100, 0, '/upload/c7c74a96eacb29455dbf557b840eaaf5.webp', '2018-02-01 00:00:00', '2020-10-02 23:12:18', 0);
-INSERT INTO `shop_goods_product` VALUES (71, 1057036, '[\"标准\"]', 79.00, 100, 0, '/upload/8a9ee5ba08929cc9e40b973607d2f633.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (72, 1064000, '[\"标准\"]', 79.00, 100, 0, '/upload/ebe118f94ddafe82c4a8cd51da6ff183.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (73, 1064002, '[\"标准\"]', 69.00, 100, 0, '/upload/48dbfe207b2203ef45055dcc9cedbe60.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (74, 1064003, '[\"标准\"]', 89.00, 100, 0, '/upload/58ed94b63b39339e7814f1339013793c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (75, 1064004, '[\"标准\"]', 99.00, 100, 0, '/upload/337da7094c1df295ca0f0b8baa55b2d5.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (76, 1064006, '[\"标准\"]', 129.00, 100, 0, '/upload/35306b8e65932dd28a5628d0bb44a044.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (77, 1064007, '[\"标准\"]', 249.00, 100, 0, '/upload/d7bd87f8cc1965b25be33a8aad53812b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (78, 1064021, '[\"标准\"]', 199.00, 100, 0, '/upload/c83a3881704094ddd3970099ca77d115.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (79, 1064022, '[\"标准\"]', 299.00, 100, 0, '/upload/a9c155e26d09e3c92b623f0472ed674a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (80, 1065004, '[\"标准\"]', 199.00, 100, 0, '/upload/05977cf923857db0c44b405bd87b096b.webp', '2018-02-01 00:00:00', '2021-07-11 15:29:08', 0);
-INSERT INTO `shop_goods_product` VALUES (81, 1065005, '[\"标准\"]', 249.00, 100, 0, '/upload/18b7be03bba9d01e4285fc443ea65bb1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (82, 1068010, '[\"标准\"]', 329.00, 100, 0, '/upload/9ed4ff9642ea9cb776a20560647cd72b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (83, 1068011, '[\"标准\"]', 399.00, 100, 0, '/upload/0e4ba6ed44fef8803c243e585b621ab7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (84, 1068012, '[\"标准\"]', 599.00, 99, 0, '/upload/69145abddddd31ae8878ea7ca7297b4b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (85, 1070000, '[\"标准\"]', 26.00, 99, 0, '/upload/8392725765cdd57fdae3f173877f4bda.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (86, 1071004, '[\"标准\"]', 89.00, 100, 0, '/upload/f0abf2bf11c8d303212e4a0c1106bb73.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (87, 1071005, '[\"标准\"]', 39.00, 100, 0, '/upload/07a47d73e2eb53b1a7939219a4e63618.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (88, 1071006, '[\"标准\"]', 9.90, 100, 0, '/upload/d206e0d15955b4d76431a752f2c94f9f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (89, 1072000, '[\"标准\"]', 89.00, 100, 0, '/upload/87cf3a17ad40bfdcdc3314ea4591a5e8.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (90, 1072001, '[\"标准\"]', 49.00, 100, 0, '/upload/0e9d5954d7dc2477d9c46b730e05ab42.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (91, 1073008, '[\"标准\"]', 149.00, 100, 0, '/upload/619e46411ccd62e5c0f16692ee1a85a0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (93, 1075022, '[\"标准\"]', 39.00, 100, 0, '/upload/97ad483a94ed88216a989df83e39cbf0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (94, 1075023, '[\"标准\"]', 199.00, 100, 0, '/upload/29bc800b9f1fa551bc3cd47b10e2a799.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (95, 1075024, '[\"标准\"]', 2399.00, 100, 0, '/upload/ce4a1eb18ea518bf584620632509935f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (96, 1081000, '[\"标准\"]', 49.00, 100, 0, '/upload/cc45baafad00405699552c187c64c512.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (97, 1081002, '[\"标准\"]', 89.00, 100, 0, '/upload/380cfcd5d8bc22360de089f0b4eb11da.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (98, 1083009, '[\"标准\"]', 299.00, 99, 0, '/upload/76e5c820f6bb71a26517ffa01f499871.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (99, 1083010, '[\"标准\"]', 469.00, 100, 0, '/upload/b9a12d07f8f2d04d662d9340e68e6687.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (100, 1084001, '[\"标准\"]', 249.00, 100, 0, '/upload/07f682d405c1d2ed343c210ac8f8862a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (101, 1084003, '[\"标准\"]', 199.00, 94, 0, '/upload/cf40c167e7054fe184d49f19121f63c7.webp', '2018-02-01 00:00:00', '2021-07-11 23:21:08', 0);
-INSERT INTO `shop_goods_product` VALUES (102, 1085019, '[\"标准\"]', 349.00, 99, 0, '/upload/65c955a7a98e84d44ca30bb88a591eac.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (103, 1086015, '[\"标准\"]', 249.00, 99, 0, '/upload/d5c2ecfe0fb00cdd8b829975bab21a31.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (104, 1086023, '[\"标准\"]', 19.90, 100, 0, '/upload/121a99e896b3e332c102eb5f6f9b3406.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (105, 1086024, '[\"标准\"]', 9.90, 100, 0, '/upload/af899cfaa13f515ecb9cf9a33f41370a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (106, 1086025, '[\"标准\"]', 49.00, 99, 0, '/upload/78eff56b293c8354bc9ac496fc2c5179.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (107, 1086026, '[\"标准\"]', 29.00, 100, 0, '/upload/caecdaa37d9cbcff980cee0968911e34.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (108, 1086052, '[\"标准\"]', 859.00, 100, 0, '/upload/93171a281c4ed272c007a050816e6f6c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (109, 1090004, '[\"标准\"]', 399.00, 100, 0, '/upload/a3a92057f10e5e6e804c19ef495e3dee.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (110, 1092001, '[\"标准\"]', 29.00, 100, 0, '/upload/8e35b003ce7895c39eeb073b1f61b1d7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (111, 1092005, '[\"标准\"]', 39.00, 100, 0, '/upload/ab1992495e0370f09386d418ad45220d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (112, 1092024, '[\"标准\"]', 1599.00, 100, 0, '/upload/f245a86dcb9f455217241e437b203926.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (115, 1092038, '[\"标准\"]', 39.00, 100, 0, '/upload/1aba9ed9c9160b9ca8e7de58ce4e46b1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (116, 1092039, '[\"标准\"]', 59.00, 100, 0, '/upload/d8c18953bcb05f0b07d6b48e2d159ace.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (117, 1093000, '[\"标准\"]', 39.00, 100, 0, '/upload/1a22cc488390b616e75afbbd94db6584.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (118, 1093001, '[\"标准\"]', 29.00, 100, 0, '/upload/71fede861c3641d570a89a65ccf4525f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (119, 1093002, '[\"标准\"]', 49.00, 100, 0, '/upload/48d95e820628610fcdcda30570d4379c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (120, 1097004, '[\"标准\"]', 1699.00, 100, 0, '/upload/54f822e9c542d20566c7f70f90d52ae6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (121, 1097005, '[\"标准\"]', 1199.00, 100, 0, '/upload/e5fd0724a05387615738173fb8f1570d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (122, 1097006, '[\"标准\"]', 999.00, 100, 0, '/upload/bcf2a72face2c4221dfdc9b3c97d4062.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (123, 1097007, '[\"标准\"]', 759.00, 100, 0, '/upload/b6e132180679b0673486145decc89aa3.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (124, 1097009, '[\"标准\"]', 1599.00, 100, 0, '/upload/e7b68189ef2f77a28110c3fc7ca5a697.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (125, 1097011, '[\"标准\"]', 3899.00, 100, 0, '/upload/fea36ef2514c904f4f45f1975f37f289.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (126, 1097012, '[\"标准\"]', 999.00, 100, 0, '/upload/d659d5ce0efaa9baa43abb6e34a1d9fe.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (127, 1097013, '[\"标准\"]', 2699.00, 100, 0, '/upload/2fa8cb066a356f47a3f0814e99fee7f2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (128, 1097014, '[\"标准\"]', 4199.00, 100, 0, '/upload/308184b7b1965470d58b5c92e9bcc4b0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (129, 1097016, '[\"标准\"]', 2799.00, 100, 0, '/upload/a7e6df722b82ad1b0158adcbdcf30df9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (130, 1097017, '[\"标准\"]', 2199.00, 100, 0, '/upload/e16ff61bef76db81090db191b9d5ec15.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (131, 1100000, '[\"标准\"]', 79.00, 100, 0, '/upload/15e40cfb6a78f557616814a815685fd4.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (132, 1100001, '[\"标准\"]', 199.00, 100, 0, '/upload/a95285853138cbaf56e4ba729f2b8749.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (133, 1100002, '[\"标准\"]', 189.00, 100, 0, '/upload/edf1945ef594c00920bdc727f4c5c7fd.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (134, 1108029, '[\"标准\"]', 89.00, 100, 0, '/upload/fe52cd141b4b330db5627114b0e0e550.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (135, 1108030, '[\"标准\"]', 39.00, 100, 0, '/upload/4891e60ff08ceed36d40a754e45e8742.webp', '2018-02-01 00:00:00', '2021-08-06 21:03:34', 0);
-INSERT INTO `shop_goods_product` VALUES (136, 1108031, '[\"标准\"]', 39.00, 100, 0, '/upload/e13e9697e01339c6cf7479eb81b3fbe2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (137, 1108032, '[\"标准\"]', 29.00, 100, 0, '/upload/b1f9e1f700469f71fe3c4187ef53c99f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (138, 1109004, '[\"标准\"]', 89.00, 100, 0, '/upload/d25b5990f16c6d1ac168a34b7aeca681.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (139, 1109005, '[\"标准\"]', 79.00, 100, 0, '/upload/7f508253f65733c7b2af52dd3943ee28.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (140, 1109008, '[\"标准\"]', 3999.00, 99, 0, '/upload/c5be2604c0e4186a4e7079feeb742cee.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (141, 1109034, '[\"标准\"]', 129.00, 100, 0, '/upload/c2c96acc680cbadb1787385598e1e593.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (142, 1110002, '[\"标准\"]', 119.00, 100, 0, '/upload/a7a524512c34d24a4b9762766dd9d0f0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (143, 1110003, '[\"标准\"]', 299.00, 100, 0, '/upload/72dfb4bfc1cd1b834c064a9d1d40627d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (144, 1110004, '[\"标准\"]', 299.00, 100, 0, '/upload/1ffd5831e63027715445f74a28f8c4ed.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (145, 1110007, '[\"标准\"]', 299.00, 100, 0, '/upload/deeb55bb45f94cb236a47d1264e883b8.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (146, 1110008, '[\"标准\"]', 99.00, 100, 0, '/upload/255a4888161f9b4fe530cf319f14551d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (147, 1110013, '[\"标准\"]', 59.00, 100, 0, '/upload/6eb8d1c37142a5951b6242791c78146b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (148, 1110014, '[\"标准\"]', 69.00, 100, 0, '/upload/cb4f78bd887059416c3df485e3f31366.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (149, 1110015, '[\"标准\"]', 69.00, 100, 0, '/upload/56da5270172244be56c00fdc8eb24fae.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (150, 1110016, '[\"标准\"]', 39.00, 98, 0, '/upload/3bd73b7279a83d1cbb50c0e45778e6d6.webp', '2018-02-01 00:00:00', '2020-08-19 01:06:17', 0);
-INSERT INTO `shop_goods_product` VALUES (151, 1110017, '[\"标准\"]', 79.00, 97, 0, '/upload/534231583f82572398ec84bad425cdaf.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (152, 1110018, '[\"标准\"]', 79.00, 100, 0, '/upload/d93aa5d6e7a296101cf4cb72613aeda6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (153, 1110019, '[\"标准\"]', 69.00, 100, 0, '/upload/1e7e392b6fc9da99dc112197b7444eec.webp', '2018-02-01 00:00:00', '2020-11-17 14:55:52', 0);
-INSERT INTO `shop_goods_product` VALUES (154, 1111007, '[\"标准\"]', 78.00, 99, 0, '/upload/8d228f767b136a67aaf2cbbf6deb46fa.webp', '2018-02-01 00:00:00', '2021-04-15 17:13:26', 0);
-INSERT INTO `shop_goods_product` VALUES (155, 1111010, '[\"标准\"]', 69.00, 100, 0, '/upload/ef7efe55839e66993fb604dc3c2d9410.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (158, 1113019, '[\"标准\"]', 208.00, 100, 0, '/upload/ad504bb389039ff35c4cd6ae912be87e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (159, 1114011, '[\"标准\"]', 299.00, 100, 0, '/upload/196b5ce11930b4eadaec563cb0406634.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (160, 1115023, '[\"标准\"]', 1599.00, 100, 0, '/upload/f3d1f0217ed250a37ea807f456351a51.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (161, 1115028, '[\"标准\"]', 299.00, 100, 0, '/upload/3d0045e8f43439c7004fae052b2162ed.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (162, 1115052, '[\"标准\"]', 86.00, 100, 0, '/upload/39dea35a3ea2361e4b054ee2f421af53.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (163, 1115053, '[\"标准\"]', 299.00, 99, 0, '/upload/fabf9ac36751a2e1322135c56f1dc338.webp', '2018-02-01 00:00:00', '2021-07-11 23:33:21', 0);
-INSERT INTO `shop_goods_product` VALUES (164, 1116004, '[\"标准\"]', 79.00, 100, 0, '/upload/14d3a47ccf52815baf6df308be6db5a6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (165, 1116005, '[\"标准\"]', 79.00, 100, 0, '/upload/71937456c3cd654f936f619201a79c09.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (166, 1116008, '[\"标准\"]', 99.00, 100, 0, '/upload/149a09a391ea5a888debf50b9dc4ed7b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (167, 1116011, '[\"标准\"]', 36.00, 10000, 0, '/upload/767b370d07f3973500db54900bcbd2a7.webp', '2018-02-01 00:00:00', '2023-07-19 22:59:33', 0);
-INSERT INTO `shop_goods_product` VALUES (168, 1116030, '[\"标准\"]', 439.00, 100, 0, '/upload/9d59a22b5aff348b5aba5fc7e451ea4d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (169, 1116031, '[\"标准\"]', 439.00, 100, 0, '/upload/f88c3dc42f3e4d7da1ded8c1ee6a97ba.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (170, 1116032, '[\"标准\"]', 3499.00, 94, 0, '/upload/45176a783387751fc07a07f5031dd62c.webp', '2018-02-01 00:00:00', '2021-07-13 23:13:41', 0);
-INSERT INTO `shop_goods_product` VALUES (171, 1116033, '[\"标准\"]', 1399.00, 100, 0, '/upload/f1dbf1d9967c478ee6def81ed40734a2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (172, 1125010, '[\"标准\"]', 159.00, 100, 0, '/upload/f82995ccb2a2f6beddd4ad794f5da2a1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (173, 1125011, '[\"标准\"]', 139.00, 100, 0, '/upload/be9740b734087f294f59a6560b932bc1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (174, 1125016, '[\"标准\"]', 139.00, 100, 0, '/upload/46f3059b020eb3900e9af8e8c1af8a97.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (175, 1125017, '[\"标准\"]', 99.00, 100, 0, '/upload/ae63fed274187e3e572043c53fefd836.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (176, 1125026, '[\"标准\"]', 159.00, 100, 0, '/upload/6308c120c441fd3e47658167ad944156.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (177, 1127003, '[\"标准\"]', 2599.00, 100, 0, '/upload/6ad1813d123f7a80f84c2cfa5f8c7caf.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (180, 1127038, '[\"标准\"]', 359.00, 100, 0, '/upload/addc278cf9c301dd535791df2e03b2ea.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (181, 1127039, '[\"标准\"]', 399.00, 100, 0, '/upload/be64df0a04ade4cfd75bf7d4e8509ecc.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (182, 1127047, '[\"标准\"]', 29.00, 66, 0, '/upload/6c03ca93d8fe404faa266ea86f3f1e43.webp', '2018-02-01 00:00:00', '2021-07-13 22:58:26', 0);
-INSERT INTO `shop_goods_product` VALUES (183, 1127052, '[\"标准\"]', 169.00, 98, 0, '/upload/4f483526cfe3b953f403ae02049df5b9.webp', '2018-02-01 00:00:00', '2021-07-14 00:10:48', 0);
-INSERT INTO `shop_goods_product` VALUES (184, 1128002, '[\"标准\"]', 599.00, 100, 0, '/upload/a1094a808ffb3a52a6cb13565a283d98.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (185, 1128010, '[\"标准\"]', 29.00, 100, 0, '/upload/a84e8e6979f00efd9a728ed36b154753.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (186, 1128011, '[\"标准\"]', 79.00, 100, 0, '/upload/d6e25ec5b4ad7aa37e077ce751b56f46.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (187, 1129015, '[\"标准\"]', 89.00, 100, 0, '/upload/fc11a482efeece9630548d8b350e7f54.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (188, 1129016, '[\"标准\"]', 29.00, 100, 0, '/upload/a7c7eec41194e65d64931a2d08ef4f8c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (189, 1130037, '[\"标准\"]', 39.00, 100, 0, '/upload/19ecd7c6f6f31219cf75117238d95139.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (190, 1130038, '[\"标准\"]', 89.00, 100, 0, '/upload/4d77296e02896675558f1a8a83742132.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (191, 1130039, '[\"标准\"]', 89.00, 100, 0, '/upload/03c73e1f1ce1d2365e83b3230e507030.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (192, 1130041, '[\"标准\"]', 109.00, 100, 0, '/upload/442b9d99c0e7f39efd7967e0e5987374.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (193, 1130042, '[\"标准\"]', 239.00, 100, 0, '/upload/dc9d09334eb201fe9408ed604e549941.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (194, 1130049, '[\"标准\"]', 429.00, 100, 0, '/upload/d88513f85b3617d734bde93af2c766c9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (195, 1130056, '[\"标准\"]', 2299.00, 100, 0, '/upload/56e72b84a9bb66687c003ecdaba73816.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (196, 1131017, '[\"标准\"]', 259.00, 94, 0, '/upload/2b6e2268ed712f1a336283f013abb7a1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (197, 1134022, '[\"标准\"]', 79.00, 100, 0, '/upload/a2b7489b4a2b1c09b66464cede4dabd7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (198, 1134030, '[\"标准\"]', 46.00, 74, 0, '/upload/aa49dfe878becf768eddc4c1636643a6.webp', '2018-02-01 00:00:00', '2021-07-13 11:36:09', 0);
-INSERT INTO `shop_goods_product` VALUES (199, 1134032, '[\"标准\"]', 49.00, 56, 0, '/upload/8b30eeb17c831eba08b97bdcb4c46a8e.webp', '2018-02-01 00:00:00', '2021-08-05 09:41:55', 0);
-INSERT INTO `shop_goods_product` VALUES (200, 1134036, '[\"标准\"]', 38.00, 96, 0, '/upload/9356cc27b22bd47ad43913d13226555f.webp', '2018-02-01 00:00:00', '2021-07-14 00:09:30', 0);
-INSERT INTO `shop_goods_product` VALUES (201, 1134056, '[\"标准\"]', 429.00, 100, 0, '/upload/c29f47f58ba1e3c2ff5a193eec0b11d6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (202, 1135000, '[\"标准\"]', 359.00, 100, 0, '/upload/53d0309471b570a7e12a3f01ba694491.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (203, 1135001, '[\"标准\"]', 459.00, 100, 0, '/upload/f82ee85933d6f0cc95382215281d3526.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (204, 1135002, '[\"标准\"]', 2599.00, 38, 0, '/upload/45548f26cfd0c7c41e0afc3709d48286.webp', '2018-02-01 00:00:00', '2021-07-13 11:32:54', 0);
-INSERT INTO `shop_goods_product` VALUES (205, 1135050, '[\"标准\"]', 179.00, 100, 0, '/upload/366f3f3f0e8971c8cf871e2b55b74ff2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (206, 1135051, '[\"标准\"]', 299.00, 100, 0, '/upload/9126151f028a8804026d530836b481cb.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (207, 1135052, '[\"标准\"]', 259.00, 100, 0, '/upload/63f5da1f5363af43aa91864bf66af48e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (208, 1135053, '[\"标准\"]', 429.00, 100, 0, '/upload/1f9e34b1aadd14ea0c9c299c530d86ba.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (209, 1135054, '[\"标准\"]', 559.00, 100, 0, '/upload/30d7daa0824fbb61b6c36175c8203349.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (210, 1135055, '[\"标准\"]', 399.00, 100, 0, '/upload/87b6a608b99279ebf1764682e9e5fcec.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (211, 1135056, '[\"标准\"]', 259.00, 100, 0, '/upload/536246ca4adb77274a94b18bb2f91f47.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (212, 1135057, '[\"标准\"]', 199.00, 100, 0, '/upload/98c5e80b8e328687ce9c949314ebc41d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (213, 1135058, '[\"标准\"]', 79.00, 100, 0, '/upload/37bc0fa3524a904ac740340fa92bd515.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (215, 1135072, '[\"标准\"]', 69.00, 84, 0, '/upload/43e57d4208cdc78ac9c088f9b3e798f5.webp', '2018-02-01 00:00:00', '2021-07-13 11:43:12', 0);
-INSERT INTO `shop_goods_product` VALUES (216, 1135073, '[\"标准\"]', 69.00, 99, 0, '/upload/53052b04ae001d289c040e09ea92231c.webp', '2018-02-01 00:00:00', '2021-08-05 09:42:12', 0);
-INSERT INTO `shop_goods_product` VALUES (217, 1138000, '[\"标准\"]', 29.00, 100, 0, '/upload/ad953e16ad8c33b714e7af941ce8cd56.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (218, 1138001, '[\"标准\"]', 79.00, 96, 0, '/upload/dbc5b25b824c3b3d7ff43b56ca35eee9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (219, 1143006, '[\"标准\"]', 99.00, 100, 0, '/upload/2b48feb65954c6739be28d15b9fbfbe3.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (220, 1143015, '[\"标准\"]', 79.00, 99, 0, '/upload/50e197854e0ada79c37b7215a1574450.webp', '2018-02-01 00:00:00', '2021-07-14 00:10:10', 0);
-INSERT INTO `shop_goods_product` VALUES (221, 1143016, '[\"标准\"]', 319.00, 99, 0, '/upload/e56c6239ee4a641ce2a4565c6babb43e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (222, 1143018, '[\"标准\"]', 68.00, 100, 0, '/upload/d1fd69cee4990f4de1109baef30efeeb.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (223, 1143019, '[\"标准\"]', 98.00, 100, 0, '/upload/277b07c1e5e6fb57cf9ca47fcd3903d5.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (224, 1143020, '[\"标准\"]', 168.00, 100, 0, '/upload/200d4d59763af9a0781cca4a06175de7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (225, 1147045, '[\"标准\"]', 599.00, 100, 0, '/upload/5cda4a0c4c4ff9728d03186bd053c9ca.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (226, 1147046, '[\"标准\"]', 599.00, 100, 0, '/upload/655d718df8107f8e7fd1dc6140e29039.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (227, 1147047, '[\"标准\"]', 559.00, 100, 0, '/upload/bda805b0a2464b6ec33c18981565e50e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (228, 1147048, '[\"标准\"]', 559.00, 100, 0, '/upload/fd7920a2eadd10fa10c0c03959a2abe0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (229, 1151012, '[\"标准\"]', 359.00, 99, 0, '/upload/cb65635dbcef42b68ba21433f4948f5a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (230, 1151013, '[\"标准\"]', 359.00, 100, 0, '/upload/73a8692048f58f15e823b636d7c3bb74.webp', '2018-02-01 00:00:00', '2021-05-15 14:11:33', 0);
-INSERT INTO `shop_goods_product` VALUES (231, 1152004, '[\"标准\"]', 399.00, 98, 0, '/upload/8c93cef435d888bd79833777df1cd0c2.webp', '2018-02-01 00:00:00', '2020-08-30 21:52:23', 0);
-INSERT INTO `shop_goods_product` VALUES (232, 1152008, '[\"标准\"]', 29.00, 93, 0, '/upload/203cb83d93606865e3ddde57b69b9e9a.webp', '2018-02-01 00:00:00', '2021-07-14 00:11:38', 0);
-INSERT INTO `shop_goods_product` VALUES (233, 1152009, '[\"标准\"]', 29.00, 95, 0, '/upload/ae6d41117717387b82dcaf1dfce0cd97.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (234, 1152031, '[\"标准\"]', 99.00, 84, 0, '/upload/fd6e78a397bd9e9804116a36f0270b0a.webp', '2018-02-01 00:00:00', '2021-08-03 15:16:50', 0);
-INSERT INTO `shop_goods_product` VALUES (235, 1152095, '[\"标准\"]', 499.00, 92, 0, '/upload/c86b49f635fa141decebabbd0966a6ef.webp', '2018-02-01 00:00:00', '2021-07-11 23:32:09', 0);
-INSERT INTO `shop_goods_product` VALUES (236, 1152097, '[\"标准\"]', 399.00, 100, 0, '/upload/532836444ae5eaec40b5810ca4f9b1e6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (237, 1152100, '[\"标准\"]', 499.00, 100, 0, '/upload/a667c4fbbd9c499c0733539d7e986617.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (238, 1152101, '[\"标准\"]', 888.00, 100, 0, '/upload/c1c62211a17b71a634fa0c705d11fb42.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (239, 1152161, '[\"标准\"]', 459.00, 98, 0, '/upload/977401e75113f7c8334c4fb5b4bf6215.webp', '2018-02-01 00:00:00', '2020-08-16 15:13:47', 0);
-INSERT INTO `shop_goods_product` VALUES (240, 1153006, '[\"标准\"]', 1288.00, 100, 0, '/upload/2743921b945a6c71fcdc3c5282a03413.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (241, 1155000, '[\"标准\"]', 399.00, 99, 0, '/upload/d7d6ef1f1865991077384761b4521dce.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (242, 1155015, '[\"标准\"]', 12.90, 96, 0, '/upload/66b9f1638c0517d179262f14ed1345f9.webp', '2018-02-01 00:00:00', '2021-05-05 15:11:10', 0);
-INSERT INTO `shop_goods_product` VALUES (243, 1156006, '[\"标准\"]', 699.00, 100, 0, '/upload/ea5b0a572b35089446fba491db7fbbc3.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
-INSERT INTO `shop_goods_product` VALUES (244, 1166008, '[\"标准\"]', 459.00, 95, 0, '/upload/615a16e899e01efb780c488df4233f48.webp', '2018-02-01 00:00:00', '2020-08-30 21:53:39', 0);
-INSERT INTO `shop_goods_product` VALUES (249, 1181002, '[\"标准\"]', 11.00, 11, 0, '', '2020-08-20 23:05:16', '2020-08-20 23:44:01', 1);
-INSERT INTO `shop_goods_product` VALUES (250, 1181003, '[\"标准\"]', 1.00, 1, 0, '', '2020-08-20 23:21:28', NULL, 1);
-INSERT INTO `shop_goods_product` VALUES (251, 1181004, '[\"标准\"]', 1.00, 1, 0, '', '2020-08-20 23:25:05', '2020-08-20 23:43:22', 1);
-INSERT INTO `shop_goods_product` VALUES (256, 1181012, '[\"标准\"]', 0.00, 0, 1, '', '2021-04-01 18:57:51', NULL, 1);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (1, 1181000, '[\"1.5m床垫*1+枕头*2\",\"浅杏粉\"]', 999.00, 100, 0, '/upload/1f67b1970ee20fd572b7202da0ff705d.webp', '2018-02-01 00:00:00', '2020-08-16 01:08:54', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (2, 1181000, '[\"1.5m床垫*1+枕头*2\",\"玛瑙红\"]', 1500.00, 192, 0, 'quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-11-07 17:14:01', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (3, 1181000, '[\"1.5m床垫*1+枕头*2\",\"烟白灰\"]', 1000.00, 300, 0, '/upload/36f64a7161b67e7fb8ea45be32ecfa25.webp?quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (4, 1181000, '[\"1.8m床垫*1+枕头*2\",\"浅杏粉\"]', 1001.00, 398, 0, '/upload/10022c73fa7aa75c2c0d736e96cc56d5.webp?quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (5, 1181000, '[\"1.8m床垫*1+枕头*2\",\"玛瑙红\"]', 2000.00, 0, 0, 'quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (6, 1181000, '[\"1.8m床垫*1+枕头*2\",\"烟白灰\"]', 3000.00, 0, 0, '/upload/36f64a7161b67e7fb8ea45be32ecfa25.webp?quality=90&thumbnail=200x200&imageView', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (7, 1006002, '[\"标准\"]', 899.00, 90, 1, '/upload/8ab2d3287af0cefa2cc539e40600621d.webp', '2018-02-01 00:00:00', '2021-08-08 11:58:19', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (8, 1006007, '[\"标准\"]', 459.00, 98, 0, '/upload/66425d1ed50b3968fed27c822fdd32e0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (9, 1006010, '[\"标准\"]', 659.00, 99, 0, '/upload/8fe022126a2789d970f82853be13a5e6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (10, 1006013, '[\"标准\"]', 699.00, 86, 0, '/upload/583812520c68ca7995b6fac4c67ae2c7.webp', '2018-02-01 00:00:00', '2021-08-08 11:19:36', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (11, 1006014, '[\"标准\"]', 1399.00, 84, 0, '/upload/2b537159f0f789034bf8c4b339c43750.webp', '2018-02-01 00:00:00', '2021-05-14 10:14:33', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (12, 1006051, '[\"标准\"]', 59.00, 95, 0, '/upload/ad5a317216f9da495b144070ecf1f957.webp', '2018-02-01 00:00:00', '2021-05-14 10:14:33', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (13, 1009009, '[\"标准\"]', 1999.00, 100, 0, '/upload/9791006f25e26b2d7c81f41f87ce8619.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (14, 1009012, '[\"标准\"]', 59.00, 100, 0, '/upload/a196b367f23ccfd8205b6da647c62b84.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (15, 1009013, '[\"标准\"]', 99.00, 100, 0, '/upload/da56fda947d0f430d5f4cf4aba14e679.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (16, 1009024, '[\"标准\"]', 599.00, 100, 0, '/upload/149dfa87a7324e184c5526ead81de9ad.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (17, 1009027, '[\"标准\"]', 79.00, 100, 0, '/upload/71cfd849335c498dee3c54d1eb823c17.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (18, 1010000, '[\"标准\"]', 399.00, 100, 0, '/upload/3bec70b85337c3eec182e54380ef7370.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (19, 1010001, '[\"标准\"]', 299.00, 100, 0, '/upload/a8b0a5def7d64e411dd98bdfb1fc989b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (20, 1011004, '[\"标准\"]', 199.00, 95, 0, '/upload/0984c9388a2c3fd2335779da904be393.webp', '2018-02-01 00:00:00', '2021-07-11 23:32:29', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (21, 1015007, '[\"标准\"]', 59.00, 99, 0, '/upload/a2045004de8a6225289376ad54317fc8.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (22, 1019000, '[\"标准\"]', 99.00, 96, 0, '/upload/77c09feb378814be712741b273d16656.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (23, 1019001, '[\"标准\"]', 109.00, 99, 0, '/upload/7644803ab19b3e398456aa5a54229363.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (24, 1019002, '[\"标准\"]', 199.00, 87, 0, '/upload/0118039f7cda342651595d994ed09567.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (25, 1019006, '[\"标准\"]', 99.00, 96, 0, '/upload/60c3707837c97a21715ecc3986a744ce.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (26, 1020000, '[\"标准\"]', 79.00, 99, 0, '/upload/819fdf1f635a694166bcfdd426416e8c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (27, 1021000, '[\"标准\"]', 39.00, 99, 0, '/upload/7191f2599c7fe44ed4cff7a76e853154.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (28, 1021001, '[\"标准\"]', 99.00, 100, 0, '/upload/fd5a8622ee1a7dfd4b57b938ebf25b24.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (29, 1021004, '[\"标准\"]', 299.00, 100, 0, '/upload/654b02045fde802b51d5bbf09a8b75f2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (30, 1021010, '[\"标准\"]', 299.00, 100, 0, '/upload/25d734cc0b2eae8f63f9deb1e4ad5f64.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (31, 1022000, '[\"标准\"]', 299.00, 99, 0, '/upload/5350e35e6f22165f38928f3c2c52ac57.webp', '2018-02-01 00:00:00', '2020-12-14 09:48:03', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (32, 1022001, '[\"标准\"]', 349.00, 100, 0, '/upload/bf8faee3b27b480f63b70056597b626d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (33, 1023003, '[\"标准\"]', 398.00, 100, 0, '/upload/c39d54c06a71b4b61b6092a0d31f2335.webp', '2018-02-01 00:00:00', '2021-05-13 17:23:33', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (34, 1023012, '[\"标准\"]', 299.00, 100, 0, '/upload/07376e78bf4fb8a5aa8e6a0b1437c3ad.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (35, 1023032, '[\"标准\"]', 449.00, 100, 0, '/upload/e0b928ada728c140f6965bb41f47407b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (36, 1023034, '[\"标准\"]', 299.00, 100, 0, '/upload/715899c65c023bb4973fb0466a5b79d6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (37, 1025005, '[\"标准\"]', 268.00, 100, 0, '/upload/49e26f00ca4d0ce00f9960d22c936738.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (38, 1027004, '[\"标准\"]', 249.00, 100, 0, '/upload/6252f53aaf36c072b6678f3d8c635132.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (39, 1029005, '[\"标准\"]', 959.00, 100, 0, '/upload/25fe52f44853eb45f610846991bc4d9d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (40, 1030001, '[\"标准\"]', 969.00, 100, 0, '/upload/88dc5d80c6f84102f003ecd69c86e1cf.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (41, 1030002, '[\"标准\"]', 899.00, 100, 0, '/upload/8b9328496990357033d4259fda250679.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (42, 1030003, '[\"标准\"]', 1469.00, 100, 0, '/upload/1d1ab099dc0e254c15e57302e78e200b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (43, 1030004, '[\"标准\"]', 399.00, 100, 0, '/upload/e84f2e3b3d39cfdc8af5c3954a877aae.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (44, 1030005, '[\"标准\"]', 899.00, 100, 0, '/upload/86f57132793d3e3c924a7ba529849288.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (45, 1030006, '[\"标准\"]', 329.00, 100, 0, '/upload/578ffec952eb25ff072d8ea1b676bfd2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (46, 1033000, '[\"标准\"]', 199.00, 100, 0, '/upload/9aab9a0bf4fef8fe3dc8c732bc22d4b7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (47, 1035006, '[\"标准\"]', 56.00, 100, 0, '/upload/ee92704f3b8323905b51fc647823e6e5.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (48, 1036002, '[\"标准\"]', 99.00, 100, 0, '/upload/ffd7efe9d5225dff9f36d5110b027caa.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (49, 1036013, '[\"标准\"]', 109.00, 100, 0, '/upload/da1bc2c10f7b2e53f2466bd23953b982.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (50, 1036016, '[\"标准\"]', 109.00, 100, 0, '/upload/513d08057c69fdb7d19cc810e976118d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (51, 1037011, '[\"标准\"]', 599.00, 100, 0, '/upload/a03ea6f4509439acdafcb7ceba1debe0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (52, 1037012, '[\"标准\"]', 69.00, 100, 0, '/upload/ffd2c91c7cf9c6e0f630595f7679b95d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (53, 1038004, '[\"标准\"]', 359.00, 100, 0, '/upload/4d3d3eaeb872860539d7faa59f9f84e9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (54, 1039051, '[\"标准\"]', 79.00, 100, 0, '/upload/c8ca0600fa7ba11ca8be6a3173dd38c9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (55, 1039056, '[\"标准\"]', 79.00, 99, 0, '/upload/3e14e82a44c3a250af63df4c29c572d0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (56, 1043005, '[\"标准\"]', 59.00, 100, 0, '/upload/2a95b16f5b147cab4845641bee738a2e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (57, 1044012, '[\"标准\"]', 349.00, 100, 0, '/upload/a803c68ea88e3116023b45ac9ea99510.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (58, 1045000, '[\"标准\"]', 28.00, 99, 0, '/upload/b2adc3fd9b84a289a1be03e8ee400e61.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (59, 1046001, '[\"标准\"]', 8.90, 100, 0, '/upload/74583e585825ecacb11f7c53d2021e00.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (60, 1046002, '[\"标准\"]', 9.90, 100, 0, '/upload/eb486cfe807c4fe5696aa59cbcf1f96a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (61, 1046044, '[\"标准\"]', 349.00, 99, 0, '/upload/2bfecfe58ea3ee0d554f2ed58e9ba30a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (62, 1048005, '[\"标准\"]', 59.00, 100, 0, '/upload/ce980c16810a471dffff6aa8d7bac754.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (63, 1051000, '[\"标准\"]', 180.00, 100, 0, '/upload/e564410546a11ddceb5a82bfce8da43d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (64, 1051001, '[\"标准\"]', 159.00, 100, 0, '/upload/f53ed57d9e23fda7e24dfd0e0a50c5d1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (65, 1051002, '[\"标准\"]', 228.00, 100, 0, '/upload/56f4b4753392d27c0c2ccceeb579ed6f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (66, 1051003, '[\"标准\"]', 148.00, 100, 0, '/upload/6a54ccc389afb2459b163245bbb2c978.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (67, 1055012, '[\"标准\"]', 39.00, 100, 0, '/upload/3d437c8d68e2ec3f3dd61001bf98f16e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (68, 1055016, '[\"标准\"]', 59.00, 100, 0, '/upload/23e0203f1512f33e605f61c28fa03d2d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (69, 1055022, '[\"标准\"]', 4.90, 100, 0, '/upload/c7c74a96eacb29455dbf557b840eaaf5.webp', '2018-02-01 00:00:00', '2020-10-02 23:12:18', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (71, 1057036, '[\"标准\"]', 79.00, 100, 0, '/upload/8a9ee5ba08929cc9e40b973607d2f633.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (72, 1064000, '[\"标准\"]', 79.00, 100, 0, '/upload/ebe118f94ddafe82c4a8cd51da6ff183.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (73, 1064002, '[\"标准\"]', 69.00, 100, 0, '/upload/48dbfe207b2203ef45055dcc9cedbe60.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (74, 1064003, '[\"标准\"]', 89.00, 100, 0, '/upload/58ed94b63b39339e7814f1339013793c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (75, 1064004, '[\"标准\"]', 99.00, 100, 0, '/upload/337da7094c1df295ca0f0b8baa55b2d5.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (76, 1064006, '[\"标准\"]', 129.00, 100, 0, '/upload/35306b8e65932dd28a5628d0bb44a044.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (77, 1064007, '[\"标准\"]', 249.00, 100, 0, '/upload/d7bd87f8cc1965b25be33a8aad53812b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (78, 1064021, '[\"标准\"]', 199.00, 100, 0, '/upload/c83a3881704094ddd3970099ca77d115.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (79, 1064022, '[\"标准\"]', 299.00, 100, 0, '/upload/a9c155e26d09e3c92b623f0472ed674a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (80, 1065004, '[\"标准\"]', 199.00, 100, 0, '/upload/05977cf923857db0c44b405bd87b096b.webp', '2018-02-01 00:00:00', '2021-07-11 15:29:08', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (81, 1065005, '[\"标准\"]', 249.00, 100, 0, '/upload/18b7be03bba9d01e4285fc443ea65bb1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (82, 1068010, '[\"标准\"]', 329.00, 100, 0, '/upload/9ed4ff9642ea9cb776a20560647cd72b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (83, 1068011, '[\"标准\"]', 399.00, 100, 0, '/upload/0e4ba6ed44fef8803c243e585b621ab7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (84, 1068012, '[\"标准\"]', 599.00, 99, 0, '/upload/69145abddddd31ae8878ea7ca7297b4b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (85, 1070000, '[\"标准\"]', 26.00, 99, 0, '/upload/8392725765cdd57fdae3f173877f4bda.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (86, 1071004, '[\"标准\"]', 89.00, 100, 0, '/upload/f0abf2bf11c8d303212e4a0c1106bb73.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (87, 1071005, '[\"标准\"]', 39.00, 100, 0, '/upload/07a47d73e2eb53b1a7939219a4e63618.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (88, 1071006, '[\"标准\"]', 9.90, 100, 0, '/upload/d206e0d15955b4d76431a752f2c94f9f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (89, 1072000, '[\"标准\"]', 89.00, 100, 0, '/upload/87cf3a17ad40bfdcdc3314ea4591a5e8.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (90, 1072001, '[\"标准\"]', 49.00, 100, 0, '/upload/0e9d5954d7dc2477d9c46b730e05ab42.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (91, 1073008, '[\"标准\"]', 149.00, 100, 0, '/upload/619e46411ccd62e5c0f16692ee1a85a0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (93, 1075022, '[\"标准\"]', 39.00, 100, 0, '/upload/97ad483a94ed88216a989df83e39cbf0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (94, 1075023, '[\"标准\"]', 199.00, 100, 0, '/upload/29bc800b9f1fa551bc3cd47b10e2a799.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (95, 1075024, '[\"标准\"]', 2399.00, 100, 0, '/upload/ce4a1eb18ea518bf584620632509935f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (96, 1081000, '[\"标准\"]', 49.00, 100, 0, '/upload/cc45baafad00405699552c187c64c512.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (97, 1081002, '[\"标准\"]', 89.00, 100, 0, '/upload/380cfcd5d8bc22360de089f0b4eb11da.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (98, 1083009, '[\"标准\"]', 299.00, 99, 0, '/upload/76e5c820f6bb71a26517ffa01f499871.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (99, 1083010, '[\"标准\"]', 469.00, 100, 0, '/upload/b9a12d07f8f2d04d662d9340e68e6687.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (100, 1084001, '[\"标准\"]', 249.00, 100, 0, '/upload/07f682d405c1d2ed343c210ac8f8862a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (101, 1084003, '[\"标准\"]', 199.00, 94, 0, '/upload/cf40c167e7054fe184d49f19121f63c7.webp', '2018-02-01 00:00:00', '2021-07-11 23:21:08', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (102, 1085019, '[\"标准\"]', 349.00, 99, 0, '/upload/65c955a7a98e84d44ca30bb88a591eac.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (103, 1086015, '[\"标准\"]', 249.00, 99, 0, '/upload/d5c2ecfe0fb00cdd8b829975bab21a31.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (104, 1086023, '[\"标准\"]', 19.90, 100, 0, '/upload/121a99e896b3e332c102eb5f6f9b3406.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (105, 1086024, '[\"标准\"]', 9.90, 100, 0, '/upload/af899cfaa13f515ecb9cf9a33f41370a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (106, 1086025, '[\"标准\"]', 49.00, 99, 0, '/upload/78eff56b293c8354bc9ac496fc2c5179.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (107, 1086026, '[\"标准\"]', 29.00, 100, 0, '/upload/caecdaa37d9cbcff980cee0968911e34.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (108, 1086052, '[\"标准\"]', 859.00, 100, 0, '/upload/93171a281c4ed272c007a050816e6f6c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (109, 1090004, '[\"标准\"]', 399.00, 100, 0, '/upload/a3a92057f10e5e6e804c19ef495e3dee.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (110, 1092001, '[\"标准\"]', 29.00, 100, 0, '/upload/8e35b003ce7895c39eeb073b1f61b1d7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (111, 1092005, '[\"标准\"]', 39.00, 100, 0, '/upload/ab1992495e0370f09386d418ad45220d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (112, 1092024, '[\"标准\"]', 1599.00, 100, 0, '/upload/f245a86dcb9f455217241e437b203926.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (115, 1092038, '[\"标准\"]', 39.00, 100, 0, '/upload/1aba9ed9c9160b9ca8e7de58ce4e46b1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (116, 1092039, '[\"标准\"]', 59.00, 100, 0, '/upload/d8c18953bcb05f0b07d6b48e2d159ace.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (117, 1093000, '[\"标准\"]', 39.00, 100, 0, '/upload/1a22cc488390b616e75afbbd94db6584.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (118, 1093001, '[\"标准\"]', 29.00, 100, 0, '/upload/71fede861c3641d570a89a65ccf4525f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (119, 1093002, '[\"标准\"]', 49.00, 100, 0, '/upload/48d95e820628610fcdcda30570d4379c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (120, 1097004, '[\"标准\"]', 1699.00, 100, 0, '/upload/54f822e9c542d20566c7f70f90d52ae6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (121, 1097005, '[\"标准\"]', 1199.00, 100, 0, '/upload/e5fd0724a05387615738173fb8f1570d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (122, 1097006, '[\"标准\"]', 999.00, 100, 0, '/upload/bcf2a72face2c4221dfdc9b3c97d4062.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (123, 1097007, '[\"标准\"]', 759.00, 100, 0, '/upload/b6e132180679b0673486145decc89aa3.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (124, 1097009, '[\"标准\"]', 1599.00, 100, 0, '/upload/e7b68189ef2f77a28110c3fc7ca5a697.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (125, 1097011, '[\"标准\"]', 3899.00, 100, 0, '/upload/fea36ef2514c904f4f45f1975f37f289.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (126, 1097012, '[\"标准\"]', 999.00, 100, 0, '/upload/d659d5ce0efaa9baa43abb6e34a1d9fe.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (127, 1097013, '[\"标准\"]', 2699.00, 100, 0, '/upload/2fa8cb066a356f47a3f0814e99fee7f2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (128, 1097014, '[\"标准\"]', 4199.00, 100, 0, '/upload/308184b7b1965470d58b5c92e9bcc4b0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (129, 1097016, '[\"标准\"]', 2799.00, 100, 0, '/upload/a7e6df722b82ad1b0158adcbdcf30df9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (130, 1097017, '[\"标准\"]', 2199.00, 100, 0, '/upload/e16ff61bef76db81090db191b9d5ec15.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (131, 1100000, '[\"标准\"]', 79.00, 100, 0, '/upload/15e40cfb6a78f557616814a815685fd4.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (132, 1100001, '[\"标准\"]', 199.00, 100, 0, '/upload/a95285853138cbaf56e4ba729f2b8749.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (133, 1100002, '[\"标准\"]', 189.00, 100, 0, '/upload/edf1945ef594c00920bdc727f4c5c7fd.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (134, 1108029, '[\"标准\"]', 89.00, 100, 0, '/upload/fe52cd141b4b330db5627114b0e0e550.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (135, 1108030, '[\"标准\"]', 39.00, 100, 0, '/upload/4891e60ff08ceed36d40a754e45e8742.webp', '2018-02-01 00:00:00', '2021-08-06 21:03:34', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (136, 1108031, '[\"标准\"]', 39.00, 100, 0, '/upload/e13e9697e01339c6cf7479eb81b3fbe2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (137, 1108032, '[\"标准\"]', 29.00, 100, 0, '/upload/b1f9e1f700469f71fe3c4187ef53c99f.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (138, 1109004, '[\"标准\"]', 89.00, 100, 0, '/upload/d25b5990f16c6d1ac168a34b7aeca681.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (139, 1109005, '[\"标准\"]', 79.00, 100, 0, '/upload/7f508253f65733c7b2af52dd3943ee28.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (140, 1109008, '[\"标准\"]', 3999.00, 99, 0, '/upload/c5be2604c0e4186a4e7079feeb742cee.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (141, 1109034, '[\"标准\"]', 129.00, 100, 0, '/upload/c2c96acc680cbadb1787385598e1e593.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (142, 1110002, '[\"标准\"]', 119.00, 100, 0, '/upload/a7a524512c34d24a4b9762766dd9d0f0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (143, 1110003, '[\"标准\"]', 299.00, 100, 0, '/upload/72dfb4bfc1cd1b834c064a9d1d40627d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (144, 1110004, '[\"标准\"]', 299.00, 100, 0, '/upload/1ffd5831e63027715445f74a28f8c4ed.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (145, 1110007, '[\"标准\"]', 299.00, 100, 0, '/upload/deeb55bb45f94cb236a47d1264e883b8.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (146, 1110008, '[\"标准\"]', 99.00, 100, 0, '/upload/255a4888161f9b4fe530cf319f14551d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (147, 1110013, '[\"标准\"]', 59.00, 100, 0, '/upload/6eb8d1c37142a5951b6242791c78146b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (148, 1110014, '[\"标准\"]', 69.00, 100, 0, '/upload/cb4f78bd887059416c3df485e3f31366.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (149, 1110015, '[\"标准\"]', 69.00, 100, 0, '/upload/56da5270172244be56c00fdc8eb24fae.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (150, 1110016, '[\"标准\"]', 39.00, 98, 0, '/upload/3bd73b7279a83d1cbb50c0e45778e6d6.webp', '2018-02-01 00:00:00', '2020-08-19 01:06:17', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (151, 1110017, '[\"标准\"]', 79.00, 97, 0, '/upload/534231583f82572398ec84bad425cdaf.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (152, 1110018, '[\"标准\"]', 79.00, 100, 0, '/upload/d93aa5d6e7a296101cf4cb72613aeda6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (153, 1110019, '[\"标准\"]', 69.00, 100, 0, '/upload/1e7e392b6fc9da99dc112197b7444eec.webp', '2018-02-01 00:00:00', '2020-11-17 14:55:52', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (154, 1111007, '[\"标准\"]', 78.00, 99, 0, '/upload/8d228f767b136a67aaf2cbbf6deb46fa.webp', '2018-02-01 00:00:00', '2021-04-15 17:13:26', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (155, 1111010, '[\"标准\"]', 69.00, 100, 0, '/upload/ef7efe55839e66993fb604dc3c2d9410.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (158, 1113019, '[\"标准\"]', 208.00, 100, 0, '/upload/ad504bb389039ff35c4cd6ae912be87e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (159, 1114011, '[\"标准\"]', 299.00, 100, 0, '/upload/196b5ce11930b4eadaec563cb0406634.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (160, 1115023, '[\"标准\"]', 1599.00, 100, 0, '/upload/f3d1f0217ed250a37ea807f456351a51.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (161, 1115028, '[\"标准\"]', 299.00, 100, 0, '/upload/3d0045e8f43439c7004fae052b2162ed.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (162, 1115052, '[\"标准\"]', 86.00, 100, 0, '/upload/39dea35a3ea2361e4b054ee2f421af53.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (163, 1115053, '[\"标准\"]', 299.00, 99, 0, '/upload/fabf9ac36751a2e1322135c56f1dc338.webp', '2018-02-01 00:00:00', '2021-07-11 23:33:21', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (164, 1116004, '[\"标准\"]', 79.00, 100, 0, '/upload/14d3a47ccf52815baf6df308be6db5a6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (165, 1116005, '[\"标准\"]', 79.00, 100, 0, '/upload/71937456c3cd654f936f619201a79c09.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (166, 1116008, '[\"标准\"]', 99.00, 100, 0, '/upload/149a09a391ea5a888debf50b9dc4ed7b.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (167, 1116011, '[\"标准\"]', 36.00, 10000, 0, '/upload/767b370d07f3973500db54900bcbd2a7.webp', '2018-02-01 00:00:00', '2023-07-19 22:59:33', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (168, 1116030, '[\"标准\"]', 439.00, 100, 0, '/upload/9d59a22b5aff348b5aba5fc7e451ea4d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (169, 1116031, '[\"标准\"]', 439.00, 100, 0, '/upload/f88c3dc42f3e4d7da1ded8c1ee6a97ba.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (170, 1116032, '[\"标准\"]', 3499.00, 94, 0, '/upload/45176a783387751fc07a07f5031dd62c.webp', '2018-02-01 00:00:00', '2021-07-13 23:13:41', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (171, 1116033, '[\"标准\"]', 1399.00, 100, 0, '/upload/f1dbf1d9967c478ee6def81ed40734a2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (172, 1125010, '[\"标准\"]', 159.00, 100, 0, '/upload/f82995ccb2a2f6beddd4ad794f5da2a1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (173, 1125011, '[\"标准\"]', 139.00, 100, 0, '/upload/be9740b734087f294f59a6560b932bc1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (174, 1125016, '[\"标准\"]', 139.00, 100, 0, '/upload/46f3059b020eb3900e9af8e8c1af8a97.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (175, 1125017, '[\"标准\"]', 99.00, 100, 0, '/upload/ae63fed274187e3e572043c53fefd836.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (176, 1125026, '[\"标准\"]', 159.00, 100, 0, '/upload/6308c120c441fd3e47658167ad944156.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (177, 1127003, '[\"标准\"]', 2599.00, 100, 0, '/upload/6ad1813d123f7a80f84c2cfa5f8c7caf.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (180, 1127038, '[\"标准\"]', 359.00, 100, 0, '/upload/addc278cf9c301dd535791df2e03b2ea.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (181, 1127039, '[\"标准\"]', 399.00, 100, 0, '/upload/be64df0a04ade4cfd75bf7d4e8509ecc.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (182, 1127047, '[\"标准\"]', 29.00, 66, 0, '/upload/6c03ca93d8fe404faa266ea86f3f1e43.webp', '2018-02-01 00:00:00', '2021-07-13 22:58:26', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (183, 1127052, '[\"标准\"]', 169.00, 98, 0, '/upload/4f483526cfe3b953f403ae02049df5b9.webp', '2018-02-01 00:00:00', '2021-07-14 00:10:48', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (184, 1128002, '[\"标准\"]', 599.00, 100, 0, '/upload/a1094a808ffb3a52a6cb13565a283d98.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (185, 1128010, '[\"标准\"]', 29.00, 100, 0, '/upload/a84e8e6979f00efd9a728ed36b154753.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (186, 1128011, '[\"标准\"]', 79.00, 100, 0, '/upload/d6e25ec5b4ad7aa37e077ce751b56f46.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (187, 1129015, '[\"标准\"]', 89.00, 100, 0, '/upload/fc11a482efeece9630548d8b350e7f54.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (188, 1129016, '[\"标准\"]', 29.00, 100, 0, '/upload/a7c7eec41194e65d64931a2d08ef4f8c.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (189, 1130037, '[\"标准\"]', 39.00, 100, 0, '/upload/19ecd7c6f6f31219cf75117238d95139.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (190, 1130038, '[\"标准\"]', 89.00, 100, 0, '/upload/4d77296e02896675558f1a8a83742132.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (191, 1130039, '[\"标准\"]', 89.00, 100, 0, '/upload/03c73e1f1ce1d2365e83b3230e507030.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (192, 1130041, '[\"标准\"]', 109.00, 100, 0, '/upload/442b9d99c0e7f39efd7967e0e5987374.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (193, 1130042, '[\"标准\"]', 239.00, 100, 0, '/upload/dc9d09334eb201fe9408ed604e549941.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (194, 1130049, '[\"标准\"]', 429.00, 100, 0, '/upload/d88513f85b3617d734bde93af2c766c9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (195, 1130056, '[\"标准\"]', 2299.00, 100, 0, '/upload/56e72b84a9bb66687c003ecdaba73816.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (196, 1131017, '[\"标准\"]', 259.00, 94, 0, '/upload/2b6e2268ed712f1a336283f013abb7a1.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (197, 1134022, '[\"标准\"]', 79.00, 100, 0, '/upload/a2b7489b4a2b1c09b66464cede4dabd7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (198, 1134030, '[\"标准\"]', 46.00, 74, 0, '/upload/aa49dfe878becf768eddc4c1636643a6.webp', '2018-02-01 00:00:00', '2021-07-13 11:36:09', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (199, 1134032, '[\"标准\"]', 49.00, 56, 0, '/upload/8b30eeb17c831eba08b97bdcb4c46a8e.webp', '2018-02-01 00:00:00', '2021-08-05 09:41:55', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (200, 1134036, '[\"标准\"]', 38.00, 96, 0, '/upload/9356cc27b22bd47ad43913d13226555f.webp', '2018-02-01 00:00:00', '2021-07-14 00:09:30', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (201, 1134056, '[\"标准\"]', 429.00, 100, 0, '/upload/c29f47f58ba1e3c2ff5a193eec0b11d6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (202, 1135000, '[\"标准\"]', 359.00, 100, 0, '/upload/53d0309471b570a7e12a3f01ba694491.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (203, 1135001, '[\"标准\"]', 459.00, 100, 0, '/upload/f82ee85933d6f0cc95382215281d3526.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (204, 1135002, '[\"标准\"]', 2599.00, 38, 0, '/upload/45548f26cfd0c7c41e0afc3709d48286.webp', '2018-02-01 00:00:00', '2021-07-13 11:32:54', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (205, 1135050, '[\"标准\"]', 179.00, 100, 0, '/upload/366f3f3f0e8971c8cf871e2b55b74ff2.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (206, 1135051, '[\"标准\"]', 299.00, 100, 0, '/upload/9126151f028a8804026d530836b481cb.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (207, 1135052, '[\"标准\"]', 259.00, 100, 0, '/upload/63f5da1f5363af43aa91864bf66af48e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (208, 1135053, '[\"标准\"]', 429.00, 100, 0, '/upload/1f9e34b1aadd14ea0c9c299c530d86ba.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (209, 1135054, '[\"标准\"]', 559.00, 100, 0, '/upload/30d7daa0824fbb61b6c36175c8203349.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (210, 1135055, '[\"标准\"]', 399.00, 100, 0, '/upload/87b6a608b99279ebf1764682e9e5fcec.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (211, 1135056, '[\"标准\"]', 259.00, 100, 0, '/upload/536246ca4adb77274a94b18bb2f91f47.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (212, 1135057, '[\"标准\"]', 199.00, 100, 0, '/upload/98c5e80b8e328687ce9c949314ebc41d.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (213, 1135058, '[\"标准\"]', 79.00, 100, 0, '/upload/37bc0fa3524a904ac740340fa92bd515.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (215, 1135072, '[\"标准\"]', 69.00, 84, 0, '/upload/43e57d4208cdc78ac9c088f9b3e798f5.webp', '2018-02-01 00:00:00', '2021-07-13 11:43:12', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (216, 1135073, '[\"标准\"]', 69.00, 99, 0, '/upload/53052b04ae001d289c040e09ea92231c.webp', '2018-02-01 00:00:00', '2021-08-05 09:42:12', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (217, 1138000, '[\"标准\"]', 29.00, 100, 0, '/upload/ad953e16ad8c33b714e7af941ce8cd56.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (218, 1138001, '[\"标准\"]', 79.00, 96, 0, '/upload/dbc5b25b824c3b3d7ff43b56ca35eee9.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (219, 1143006, '[\"标准\"]', 99.00, 100, 0, '/upload/2b48feb65954c6739be28d15b9fbfbe3.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (220, 1143015, '[\"标准\"]', 79.00, 99, 0, '/upload/50e197854e0ada79c37b7215a1574450.webp', '2018-02-01 00:00:00', '2021-07-14 00:10:10', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (221, 1143016, '[\"标准\"]', 319.00, 99, 0, '/upload/e56c6239ee4a641ce2a4565c6babb43e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (222, 1143018, '[\"标准\"]', 68.00, 100, 0, '/upload/d1fd69cee4990f4de1109baef30efeeb.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (223, 1143019, '[\"标准\"]', 98.00, 100, 0, '/upload/277b07c1e5e6fb57cf9ca47fcd3903d5.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (224, 1143020, '[\"标准\"]', 168.00, 100, 0, '/upload/200d4d59763af9a0781cca4a06175de7.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (225, 1147045, '[\"标准\"]', 599.00, 100, 0, '/upload/5cda4a0c4c4ff9728d03186bd053c9ca.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (226, 1147046, '[\"标准\"]', 599.00, 100, 0, '/upload/655d718df8107f8e7fd1dc6140e29039.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (227, 1147047, '[\"标准\"]', 559.00, 100, 0, '/upload/bda805b0a2464b6ec33c18981565e50e.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (228, 1147048, '[\"标准\"]', 559.00, 100, 0, '/upload/fd7920a2eadd10fa10c0c03959a2abe0.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (229, 1151012, '[\"标准\"]', 359.00, 99, 0, '/upload/cb65635dbcef42b68ba21433f4948f5a.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (230, 1151013, '[\"标准\"]', 359.00, 100, 0, '/upload/73a8692048f58f15e823b636d7c3bb74.webp', '2018-02-01 00:00:00', '2021-05-15 14:11:33', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (231, 1152004, '[\"标准\"]', 399.00, 98, 0, '/upload/8c93cef435d888bd79833777df1cd0c2.webp', '2018-02-01 00:00:00', '2020-08-30 21:52:23', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (232, 1152008, '[\"标准\"]', 29.00, 93, 0, '/upload/203cb83d93606865e3ddde57b69b9e9a.webp', '2018-02-01 00:00:00', '2021-07-14 00:11:38', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (233, 1152009, '[\"标准\"]', 29.00, 95, 0, '/upload/ae6d41117717387b82dcaf1dfce0cd97.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (234, 1152031, '[\"标准\"]', 99.00, 84, 0, '/upload/fd6e78a397bd9e9804116a36f0270b0a.webp', '2018-02-01 00:00:00', '2021-08-03 15:16:50', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (235, 1152095, '[\"标准\"]', 499.00, 92, 0, '/upload/c86b49f635fa141decebabbd0966a6ef.webp', '2018-02-01 00:00:00', '2021-07-11 23:32:09', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (236, 1152097, '[\"标准\"]', 399.00, 100, 0, '/upload/532836444ae5eaec40b5810ca4f9b1e6.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (237, 1152100, '[\"标准\"]', 499.00, 100, 0, '/upload/a667c4fbbd9c499c0733539d7e986617.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (238, 1152101, '[\"标准\"]', 888.00, 100, 0, '/upload/c1c62211a17b71a634fa0c705d11fb42.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (239, 1152161, '[\"标准\"]', 459.00, 98, 0, '/upload/977401e75113f7c8334c4fb5b4bf6215.webp', '2018-02-01 00:00:00', '2020-08-16 15:13:47', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (240, 1153006, '[\"标准\"]', 1288.00, 100, 0, '/upload/2743921b945a6c71fcdc3c5282a03413.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (241, 1155000, '[\"标准\"]', 399.00, 99, 0, '/upload/d7d6ef1f1865991077384761b4521dce.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (242, 1155015, '[\"标准\"]', 12.90, 96, 0, '/upload/66b9f1638c0517d179262f14ed1345f9.webp', '2018-02-01 00:00:00', '2021-05-05 15:11:10', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (243, 1156006, '[\"标准\"]', 699.00, 100, 0, '/upload/ea5b0a572b35089446fba491db7fbbc3.webp', '2018-02-01 00:00:00', '2018-02-01 00:00:00', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (244, 1166008, '[\"标准\"]', 459.00, 95, 0, '/upload/615a16e899e01efb780c488df4233f48.webp', '2018-02-01 00:00:00', '2020-08-30 21:53:39', 0);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (249, 1181002, '[\"标准\"]', 11.00, 11, 0, '', '2020-08-20 23:05:16', '2020-08-20 23:44:01', 1);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (250, 1181003, '[\"标准\"]', 1.00, 1, 0, '', '2020-08-20 23:21:28', NULL, 1);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (251, 1181004, '[\"标准\"]', 1.00, 1, 0, '', '2020-08-20 23:25:05', '2020-08-20 23:43:22', 1);
+INSERT INTO `shop_goods_product` (`id`, `goods_id`, `specifications`, `price`, `number`, `locked_stock`, `url`, `create_time`, `update_time`, `del_flag`) VALUES (256, 1181012, '[\"标准\"]', 0.00, 0, 1, '', '2021-04-01 18:57:51', NULL, 1);
 
 ALTER TABLE `shop_goods_product` ADD COLUMN `default_selected` tinyint(1) NULL DEFAULT 0 COMMENT '是否默认选中（0未选中 1选中）' AFTER `locked_stock`;
 
@@ -2750,5 +2750,251 @@ CREATE TABLE `shop_member_coupon`  (
                                        PRIMARY KEY (`id`) USING BTREE,
                                        INDEX `user_coupin_index`(`user_id` ASC, `coupon_id` ASC) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '优惠券用户使用表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for shop_inventory_flow
+-- ----------------------------
+DROP TABLE IF EXISTS `shop_inventory_flow`;
+CREATE TABLE `shop_inventory_flow` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `flow_key` varchar(128) NOT NULL COMMENT '业务唯一流水键',
+  `biz_type` varchar(32) NOT NULL COMMENT '业务类型',
+  `biz_id` varchar(64) NOT NULL COMMENT '业务 ID',
+  `goods_id` bigint DEFAULT NULL COMMENT '商品 ID',
+  `product_id` bigint NOT NULL COMMENT '商品货品 ID',
+  `change_type` varchar(32) NOT NULL COMMENT '库存变更类型',
+  `change_number` int NOT NULL COMMENT '库存变更数量',
+  `remark` varchar(255) DEFAULT NULL COMMENT '流水备注',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `uk_inventory_flow_key` (`flow_key`) USING BTREE,
+  KEY `idx_inventory_flow_biz` (`biz_type`, `biz_id`) USING BTREE,
+  KEY `idx_inventory_flow_product` (`product_id`, `change_type`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '库存流水表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for local_message
+-- ----------------------------
+DROP TABLE IF EXISTS `local_message`;
+CREATE TABLE `local_message` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `message_key` varchar(128) NOT NULL COMMENT '业务唯一消息键',
+  `topic` varchar(64) NOT NULL COMMENT '消息主题',
+  `biz_type` varchar(32) NOT NULL COMMENT '业务类型',
+  `biz_id` varchar(64) NOT NULL COMMENT '业务 ID',
+  `exchange_name` varchar(128) DEFAULT NULL COMMENT 'RabbitMQ 交换机，空值表示本地处理器消息',
+  `routing_key` varchar(128) DEFAULT NULL COMMENT 'RabbitMQ 路由键，空值表示本地处理器消息',
+  `payload` text NOT NULL COMMENT 'JSON 消息体',
+  `delay_millis` int NOT NULL DEFAULT 0 COMMENT '延迟投递毫秒数',
+  `status` tinyint NOT NULL DEFAULT 0 COMMENT '状态：0 待投递，1 已投递，2 失败',
+  `retry_count` int NOT NULL DEFAULT 0 COMMENT '重试次数',
+  `next_retry_time` datetime NOT NULL COMMENT '下一次可重试时间',
+  `last_error` varchar(1000) DEFAULT NULL COMMENT '最近一次错误信息',
+  `sent_time` datetime DEFAULT NULL COMMENT '成功投递或处理时间',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `uk_local_message_key` (`message_key`) USING BTREE,
+  KEY `idx_local_message_status_retry` (`status`, `next_retry_time`) USING BTREE,
+  KEY `idx_local_message_biz` (`biz_type`, `biz_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '本地消息表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for local_message_compensation_log
+-- ----------------------------
+DROP TABLE IF EXISTS `local_message_compensation_log`;
+CREATE TABLE `local_message_compensation_log` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `message_id` bigint NOT NULL COMMENT '本地消息 ID',
+  `message_key` varchar(128) NOT NULL COMMENT '业务唯一消息键',
+  `topic` varchar(64) NOT NULL COMMENT '消息主题',
+  `biz_type` varchar(32) NOT NULL COMMENT '业务类型',
+  `biz_id` varchar(64) NOT NULL COMMENT '业务 ID',
+  `action_type` varchar(32) NOT NULL COMMENT '动作类型：FAILURE、DEAD_LETTER、MANUAL_RETRY',
+  `failure_reason` varchar(64) DEFAULT NULL COMMENT '失败原因分类',
+  `retry_count` int NOT NULL DEFAULT 0 COMMENT '当前重试次数',
+  `dead_letter` tinyint(1) NOT NULL DEFAULT 0 COMMENT '是否进入死信',
+  `operator` varchar(64) NOT NULL DEFAULT 'system' COMMENT '操作者',
+  `remark` varchar(1000) DEFAULT NULL COMMENT '日志备注',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `idx_local_message_comp_log_message` (`message_id`) USING BTREE,
+  KEY `idx_local_message_comp_log_reason` (`failure_reason`, `dead_letter`) USING BTREE,
+  KEY `idx_local_message_comp_log_biz` (`biz_type`, `biz_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '本地消息补偿日志表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for shop_order_status_log
+-- ----------------------------
+DROP TABLE IF EXISTS `shop_order_status_log`;
+CREATE TABLE `shop_order_status_log` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `order_id` bigint DEFAULT NULL COMMENT '订单ID',
+  `order_sn` varchar(64) NOT NULL COMMENT '订单号',
+  `source_status` smallint DEFAULT NULL COMMENT '来源状态',
+  `target_status` smallint NOT NULL COMMENT '目标状态',
+  `change_type` varchar(32) NOT NULL COMMENT '状态变更类型',
+  `operator_type` varchar(32) NOT NULL COMMENT '操作者类型',
+  `operator_id` varchar(64) DEFAULT NULL COMMENT '操作者ID或渠道标识',
+  `success` tinyint(1) NOT NULL DEFAULT 1 COMMENT '是否成功',
+  `fail_reason` varchar(512) DEFAULT NULL COMMENT '失败原因',
+  `remark` varchar(512) DEFAULT NULL COMMENT '备注',
+  `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `idx_order_status_log_order_sn` (`order_sn`) USING BTREE,
+  KEY `idx_order_status_log_order_id` (`order_id`) USING BTREE,
+  KEY `idx_order_status_log_type_time` (`change_type`, `create_time`) USING BTREE,
+  KEY `idx_order_status_log_success_time` (`success`, `create_time`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '订单状态流转日志表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for shop_payment_flow
+-- ----------------------------
+DROP TABLE IF EXISTS `shop_payment_flow`;
+CREATE TABLE `shop_payment_flow` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `flow_key` varchar(128) NOT NULL COMMENT '支付流水幂等键，格式为 payChannel:payId',
+  `order_id` bigint NOT NULL COMMENT '订单 ID',
+  `order_sn` varchar(64) NOT NULL COMMENT '订单号',
+  `pay_id` varchar(128) NOT NULL COMMENT '第三方支付流水号',
+  `pay_channel` varchar(32) NOT NULL COMMENT '支付回调渠道编码',
+  `pay_amount` decimal(10,2) NOT NULL COMMENT '支付金额',
+  `status` tinyint NOT NULL COMMENT '支付流水状态：1 支付成功',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `uk_payment_flow_key` (`flow_key`) USING BTREE,
+  KEY `idx_payment_flow_order_sn` (`order_sn`) USING BTREE,
+  KEY `idx_payment_flow_pay_id` (`pay_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '支付流水表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for shop_payment_channel_bill
+-- ----------------------------
+DROP TABLE IF EXISTS `shop_payment_channel_bill`;
+CREATE TABLE `shop_payment_channel_bill` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `bill_date` date NOT NULL COMMENT '渠道账单日期',
+  `order_sn` varchar(64) NOT NULL COMMENT '订单号',
+  `pay_id` varchar(128) NOT NULL COMMENT '第三方支付流水号',
+  `pay_channel` varchar(32) NOT NULL COMMENT '支付渠道编码',
+  `pay_amount` decimal(10,2) NOT NULL COMMENT '渠道账单支付金额',
+  `bill_status` varchar(32) DEFAULT NULL COMMENT '渠道账单状态',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `uk_payment_channel_bill` (`pay_channel`, `pay_id`) USING BTREE,
+  KEY `idx_payment_channel_bill_date` (`bill_date`) USING BTREE,
+  KEY `idx_payment_channel_bill_order` (`order_sn`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '支付渠道账单表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for shop_payment_refund_flow
+-- ----------------------------
+DROP TABLE IF EXISTS `shop_payment_refund_flow`;
+CREATE TABLE `shop_payment_refund_flow` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `refund_key` varchar(128) NOT NULL COMMENT '退款流水幂等键',
+  `order_id` bigint DEFAULT NULL COMMENT '订单 ID',
+  `order_sn` varchar(64) NOT NULL COMMENT '订单号',
+  `refund_id` varchar(128) NOT NULL COMMENT '第三方退款流水号',
+  `refund_channel` varchar(32) NOT NULL COMMENT '退款渠道编码',
+  `refund_amount` decimal(10,2) NOT NULL COMMENT '退款金额',
+  `status` tinyint NOT NULL COMMENT '退款状态',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `uk_payment_refund_flow_key` (`refund_key`) USING BTREE,
+  KEY `idx_payment_refund_flow_order` (`order_sn`) USING BTREE,
+  KEY `idx_payment_refund_flow_refund` (`refund_channel`, `refund_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '支付退款流水表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for shop_seckill_activity
+-- ----------------------------
+DROP TABLE IF EXISTS `shop_seckill_activity`;
+CREATE TABLE `shop_seckill_activity` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `name` varchar(100) NOT NULL COMMENT '活动名称',
+  `brief` varchar(255) DEFAULT NULL COMMENT '活动简介',
+  `start_time` datetime NOT NULL COMMENT '开始时间',
+  `end_time` datetime NOT NULL COMMENT '结束时间',
+  `status` tinyint NOT NULL DEFAULT 0 COMMENT '状态：0 草稿，1 已发布，2 已下架',
+  `sort_order` int NOT NULL DEFAULT 100 COMMENT '排序值',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  `del_flag` tinyint(1) NOT NULL DEFAULT 0 COMMENT '删除标志：0 存在，1 删除',
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `idx_seckill_activity_status_time` (`status`, `start_time`, `end_time`) USING BTREE,
+  KEY `idx_seckill_activity_sort` (`sort_order`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '秒杀活动表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for shop_seckill_sku
+-- ----------------------------
+DROP TABLE IF EXISTS `shop_seckill_sku`;
+CREATE TABLE `shop_seckill_sku` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `activity_id` bigint NOT NULL COMMENT '秒杀活动 ID',
+  `goods_id` bigint NOT NULL COMMENT '商品 ID',
+  `product_id` bigint NOT NULL COMMENT '商品 SKU ID',
+  `seckill_price` decimal(10,2) NOT NULL COMMENT '秒杀价',
+  `available_stock` int NOT NULL DEFAULT 0 COMMENT '活动可售库存',
+  `locked_stock` int NOT NULL DEFAULT 0 COMMENT '活动冻结库存',
+  `sold_stock` int NOT NULL DEFAULT 0 COMMENT '活动已售库存',
+  `limit_count` int NOT NULL DEFAULT 1 COMMENT '单用户限购数量',
+  `status` tinyint NOT NULL DEFAULT 0 COMMENT '状态：0 草稿，1 已发布，2 已下架',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  `del_flag` tinyint(1) NOT NULL DEFAULT 0 COMMENT '删除标志：0 存在，1 删除',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `uk_seckill_sku_activity_product` (`activity_id`, `product_id`) USING BTREE,
+  KEY `idx_seckill_sku_product` (`product_id`) USING BTREE,
+  KEY `idx_seckill_sku_activity_status` (`activity_id`, `status`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '秒杀活动 SKU 表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Table structure for shop_order_activity_relation
+-- ----------------------------
+DROP TABLE IF EXISTS `shop_order_activity_relation`;
+CREATE TABLE `shop_order_activity_relation` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键 ID',
+  `order_id` bigint NOT NULL COMMENT '订单 ID',
+  `order_sn` varchar(63) NOT NULL COMMENT '订单编号',
+  `order_goods_id` bigint NOT NULL COMMENT '订单商品 ID',
+  `user_id` bigint NOT NULL COMMENT '用户 ID',
+  `activity_type` tinyint NOT NULL COMMENT '活动类型：1 秒杀',
+  `activity_id` bigint NOT NULL COMMENT '活动 ID',
+  `activity_sku_id` bigint NOT NULL COMMENT '活动 SKU ID',
+  `goods_id` bigint NOT NULL COMMENT '商品 ID',
+  `product_id` bigint NOT NULL COMMENT '商品 SKU ID',
+  `activity_price` decimal(10,2) NOT NULL COMMENT '活动成交单价',
+  `number` int NOT NULL COMMENT '购买数量',
+  `inventory_status` tinyint NOT NULL DEFAULT 0 COMMENT '活动库存状态：0 已冻结，1 已确认，2 已释放',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  `del_flag` tinyint(1) NOT NULL DEFAULT 0 COMMENT '删除标志：0 存在，1 删除',
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `uk_order_activity_order_goods` (`order_goods_id`) USING BTREE,
+  KEY `idx_order_activity_order_id` (`order_id`) USING BTREE,
+  KEY `idx_order_activity_order_sn` (`order_sn`) USING BTREE,
+  KEY `idx_order_activity_user_sku` (`activity_type`, `activity_sku_id`, `user_id`) USING BTREE,
+  KEY `idx_order_activity_user_goods` (`activity_type`, `activity_id`, `goods_id`, `user_id`, `inventory_status`) USING BTREE,
+  KEY `idx_order_activity_inventory` (`activity_type`, `inventory_status`, `update_time`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '订单活动关联表' ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Records of sys_menu for seckill
+-- ----------------------------
+INSERT INTO `sys_menu` (`menu_id`, `menu_name`, `parent_id`, `sort`, `path`, `component`, `is_frame`, `menu_type`, `menu_status`, `visible`, `perms`, `icon`, `create_by`, `create_time`, `update_by`, `update_time`, `remark`, `del_flag`) VALUES
+(2121, '秒杀活动', 2033, 6, 'seckill', 'shop/seckill/index', 1, 'C', 0, 0, NULL, 'time-range', 'admin', '2026-06-06 00:00:00', '', NULL, '秒杀活动管理菜单', 0),
+(2122, '列表', 2121, 1, '', NULL, 1, 'F', 0, 0, 'shop:seckill:list', '#', 'admin', '2026-06-06 00:00:00', '', NULL, '秒杀活动列表权限', 0),
+(2123, '详情', 2121, 2, '', NULL, 1, 'F', 0, 0, 'shop:seckill:info', '#', 'admin', '2026-06-06 00:00:00', '', NULL, '秒杀活动详情权限', 0),
+(2124, '新增', 2121, 3, '', NULL, 1, 'F', 0, 0, 'shop:seckill:add', '#', 'admin', '2026-06-06 00:00:00', '', NULL, '秒杀活动新增权限', 0),
+(2125, '修改', 2121, 4, '', NULL, 1, 'F', 0, 0, 'shop:seckill:update', '#', 'admin', '2026-06-06 00:00:00', '', NULL, '秒杀活动修改/发布/预热权限', 0),
+(2126, '删除', 2121, 5, '', NULL, 1, 'F', 0, 0, 'shop:seckill:delete', '#', 'admin', '2026-06-06 00:00:00', '', NULL, '秒杀活动删除权限', 0);
 
 SET FOREIGN_KEY_CHECKS = 1;
